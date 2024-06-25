@@ -275,7 +275,7 @@ ROM 7
 ROM 3
 SVK 20
 SVK 20
-AUT 1 Purple
+AUT 1 purple
 NED 4
 FIN 8
 FIN 9

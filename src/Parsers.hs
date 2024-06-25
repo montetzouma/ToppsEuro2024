@@ -159,17 +159,18 @@ gotLineParser = do
     -- TODO: These should be replaced by Text versions of isInfixOf
     findRarityInInfo :: String -> Rarity
     findRarityInInfo info
-      -- TODO: Allow any capitalisation
-      | "Unsigned" `L.isInfixOf` info = StarPlayerUnsigned
-      | "Signed"   `L.isInfixOf` info = StarPlayerSigned
-      | "Red"      `L.isInfixOf` info = MegaEcoBoxExclusive
-      | "Purple"   `L.isInfixOf` info = Rare
-      | "Topps"    `L.isInfixOf` info = VeryRare
-      | "Green"    `L.isInfixOf` info = SuperRare
-      | "Blue"     `L.isInfixOf` info = MegaRare
-      | "Black"    `L.isInfixOf` info = UltraRare
-      | "Gold"     `L.isInfixOf` info = OneOfAKind
-      | otherwise                     = Common
+      | "unsigned" `L.isInfixOf` infoLower = StarPlayerUnsigned
+      | "signed"   `L.isInfixOf` infoLower = StarPlayerSigned
+      | "red"      `L.isInfixOf` infoLower = MegaEcoBoxExclusive
+      | "purple"   `L.isInfixOf` infoLower = Rare
+      | "topps"    `L.isInfixOf` infoLower = VeryRare
+      | "green"    `L.isInfixOf` infoLower = SuperRare
+      | "blue"     `L.isInfixOf` infoLower = MegaRare
+      | "black"    `L.isInfixOf` infoLower = UltraRare
+      | "gold"     `L.isInfixOf` infoLower = OneOfAKind
+      | otherwise                          = Common
+      where
+        infoLower = map C.toLower info
 
 gotParser :: Parser [Sticker]
 gotParser = M.many gotLineParser 
