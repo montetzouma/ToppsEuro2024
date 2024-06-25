@@ -1,3 +1,37 @@
+AUT 11
+BEL 8
+DEN 14
+GER 5
+ESP 13
+isr 1
+ned P1
+srb 18
+GF 2
+SUI 18
+ENG 13
+SUI 1 PURPLE
+SVN TOP 2
+SVK P1
+CZE 17
+HUN TOP 1
+ITA 8
+CZE 3
+FRA 19
+ROM 7
+DEN 11
+GRE SP
+KAZ SP
+CRO 14
+TUR 1
+POL 6
+pol 7
+isr 12
+isr 13
+lux 6
+lux 7
+sco 7
+alb 17
+ESP 3
 UEFA 3
 EURO 3
 EURO 6

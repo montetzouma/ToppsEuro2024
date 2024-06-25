@@ -27,7 +27,7 @@ type Parser = M.Parsec V.Void String
 
 chapterParser :: Parser Chapter
 chapterParser = do
-  maybeChapter <- R.readMaybe <$> M.takeWhileP Nothing C.isAlpha
+  maybeChapter <- R.readMaybe . map C.toUpper <$> M.takeWhileP Nothing C.isAlpha
 
   case maybeChapter of
     Nothing      -> M.failure Nothing S.empty
