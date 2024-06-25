@@ -1,0 +1,908 @@
+Introduction
+
+TOPPS 1.  Topps Logo
+
+UEFA 1.  UEFA Euro 2024 Logo
+UEFA 2.  Matchball 
+UEFA 3.  Corporate Sticker 
+
+Germany Host of the UEFA Euro 2024
+
+EURO 1.  Trophy  -  Holo Foil
+EURO 2.  Köln 
+EURO 3.  Dortmund 
+EURO 4.  Düsseldorf 
+EURO 5.  Frankfurt 
+EURO 6.  Gelsenkirchen 
+EURO 7.  Hamburg 
+EURO 8.  Leipzig 
+EURO 9.  München 
+EURO 10.  Stuttgart 
+EURO 11.  Berlin Stadium 
+
+Group A
+
+GA 1.  Overview 1/2
+GA 2.  Overview 2/2
+
+GER P1.  Landmark 1/2
+GER P2.  Landmark 2/2
+
+SCO P1.  Landmark 1/2
+SCO P2.  Landmark 2/2
+
+HUN P1.  Landmark 1/2
+HUN P2.  Landmark 2/2
+
+SUI P1.  Landmark 1/2
+SUI P2.  Landmark 2/2
+
+GER PTW.  Jamal Musiala (Germany)  -  Player to Watch  -  Holo Foil
+GER SP.  Leroy Sané (Germany)  -  Star Player  -  Gold Foil
+GER TOP 1.  Thomas Müller (Germany)  -  Top XI
+GER TOP 2.  Ilkay Gündogan (Germany)  -  Top XI
+
+SCO PTW.  Billy Gilmour (Scotland)  -  Player to Watch  -  Holo Foil
+SCO SP.  Scott McTominay (Scotland)  -  Star Player  -  Gold Foil
+SCO TOP 1.  John McGinn (Scotland)  -  Top XI
+SCO TOP 2.  Ryan Porteous (Scotland)  -  Top XI
+
+HUN PTW.  Milos Kerkez (Hungary)  -  Player to Watch  -  Holo Foil
+HUN SP.  Willi Orbán (Hungary)  -  Star Player  -  Gold Foil
+HUN TOP 1.  Martin Ádám (Hungary)  -  Top XI
+HUN TOP 2.  Ádám  Nagy (Hungary)  -  Top XI
+
+SUI PTW.  Fabian Rieder (Switzerland)  -  Player to Watch  -  Holo Foil
+SUI SP.  Noah Okafor (Switzerland)  -  Star Player  -  Gold Foil
+SUI TOP 1.  Nico Elvedi (Switzerland)  -  Top XI
+SUI TOP 2.  Djibril Sow (Switzerland)  -  Top XI
+
+GER 1.  Logo (Germany)  -  Holo Foil
+GER 2.  Ilkay Gündogan (Germany)  -  Captain  -  Holo Foil
+GER 3.  Julian Brandt (Germany)  -  Artist  -  Holo Foil
+GER 4.  Thilo Kehrer (Germany)
+GER 5.  Nico Schlotterbeck (Germany)
+GER 6.  Benjamin Henrichs (Germany)
+GER 7.  Malick Thiaw (Germany)
+GER 8.  Robin Gosens (Germany)
+GER 9.  Niklas Süle (Germany)
+GER 10.  Joshua Kimmich (Germany)
+GER 11.  Jamal Musiala (Germany)
+GER 12.  Mario Götze (Germany)
+GER 13.  Emre Can (Germany)
+GER 14.  Timo Werner (Germany)
+GER 15.  Leroy Sané (Germany)
+GER 16.  Thomas Müller (Germany)
+GER 17.  Niclas Füllkrug (Germany)
+GER 18.  Karim Adeyemi (Germany)
+GER 19.  Oliver Kahn (Germany)  -  Legend
+GER 20.  Bastian Schweinsteiger (Germany)  -  Legend
+GER 21.  Lothar Matthäus (Germany)  -  Legend
+
+SCO 1.  Logo (Scotland)  -  Holo Foil
+SCO 2.  Andrew Robertson (Scotland)  -  Captain  -  Holo Foil
+SCO 3.  Ché Adams (Scotland)  -  Artist  -  Holo Foil
+SCO 4.  Angus Gunn (Scotland)
+SCO 5.  Grant Hanley (Scotland)
+SCO 6.  Jack Hendry (Scotland)
+SCO 7.  Liam Cooper (Scotland)
+SCO 8.  Nathan Patterson (Scotland)
+SCO 9.  Ryan Porteous (Scotland)
+SCO 10.  Aaaron Hickey (Scotland)
+SCO 11.  Kieran Tierney (Scotland)
+SCO 12.  Callum McGregor (Scotland)
+SCO 13.  Stuart Armstrong (Scotland)
+SCO 14.  Billy Gilmour (Scotland)
+SCO 15.  John McGinn (Scotland)
+SCO 16.  Scott McTominay (Scotland)
+SCO 17.  Lewis Ferguson (Scotland)
+SCO 18.  Kenny McLean (Scotland)
+SCO 19.  Ryan Jack (Scotland)
+SCO 20.  Lyndon Dykes (Scotland)
+SCO 21.  Ryan Christie (Scotland)
+
+HUN 1.  Logo (Hungary)  -  Holo Foil
+HUN 2.  Dominik Szoboszlai (Hungary)  -  Captain  -  Holo Foil
+HUN 3.  Callum Styles (Hungary)  -  Artist  -  Holo Foil
+HUN 4.  Dénes Dibusz (Hungary)
+HUN 5.  Ádám Lang (Hungary)
+HUN 6.  Attila Szalai (Hungary)
+HUN 7.  Milos Kerkez (Hungary)
+HUN 8.  Willi Orbán (Hungary)
+HUN 9.  Endre Botka (Hungary)
+HUN 10.  Loïc  Nego (Hungary)
+HUN 11.  Bendegúz  Bolla (Hungary)
+HUN 12.  Ádám  Nagy (Hungary)
+HUN 13.  Zsolt Kalmár (Hungary)
+HUN 14.  Dániel Gazdag (Hungary)
+HUN 15.  Mihály  Kata (Hungary)
+HUN 16.  László  Kleinheisler (Hungary)
+HUN 17.  Barnabás  Varga (Hungary)
+HUN 18.  Roland Sallai (Hungary)
+HUN 19.  Kevin Csoboth (Hungary)
+HUN 20.  András  Nemeth (Hungary)
+HUN 21.  Martin Ádám (Hungary)
+
+SUI 1.  Logo (Switzerland)  -  Holo Foil
+SUI 2.  Granit Xhaka (Switzerland)  -  Captain  -  Holo Foil
+SUI 3.  Xherdan Shaqiri (Switzerland)  -  Artist  -  Holo Foil
+SUI 4.  Yann Sommer (Switzerland)
+SUI 5.  Silvan Widmer (Switzerland)
+SUI 6.  Manuel Akanji (Switzerland)
+SUI 7.  Ricardo Rodríguez (Switzerland)
+SUI 8.  Nico Elvedi (Switzerland)
+SUI 9.  Fabian Schär (Switzerland)
+SUI 10.  Edmilson Fernandes (Switzerland)
+SUI 11.  Michel Aebischer (Switzerland)
+SUI 12.  Denis Zakaria (Switzerland)
+SUI 13.  Remo Freuler (Switzerland)
+SUI 14.  Fabian Rieder (Switzerland)
+SUI 15.  Djibril Sow (Switzerland)
+SUI 16.  Filip Ugrinic (Switzerland)
+SUI 17.  Dan Ndoye (Switzerland)
+SUI 18.  Ruben Vargas (Switzerland)
+SUI 19.  Zeki Amdouni (Switzerland)
+SUI 20.  Breel Embolo (Switzerland)
+SUI 21.  Noah Okafor (Switzerland)
+
+Group B
+
+GB 1.  Overview 1/2
+GB 2.  Overview 2/2
+
+ESP P1.  Landmark 1/2
+ESP P2.  Landmark 2/2
+
+CRO P1.  Landmark 1/2
+CRO P2.  Landmark 2/2
+
+ITA P1.  Landmark 1/2
+ITA P2.  Landmark 2/2
+
+ALB P1.  Landmark 1/2
+ALB P2.  Landmark 2/2
+
+ESP PTW.  Lamine Yamal (Spain)  -  Player to Watch  -  Holo Foil
+ESP SP.   Rodri (Spain)  -  Star Player  -  Gold Foil
+ESP TOP 1.  Ferran Torres (Spain)  -  Top XI
+ESP TOP 2.   Pedri (Spain)  -  Top XI
+
+CRO PTW.  Joško  Gvardiol (Croatia)  -  Player to Watch  -  Holo Foil
+CRO SP.  Mateo Kovačić (Croatia)  -  Star Player  -  Gold Foil
+CRO TOP 1.  Andrej Kramarić (Croatia)  -  Top XI
+CRO TOP 2.  Ivan Perišić (Croatia)  -  Top XI
+
+ITA PTW.  Wilfried Gnonto (Italy)  -  Player to Watch  -  Holo Foil
+ITA SP.  Federico Chiesa (Italy)  -  Star Player  -  Gold Foil
+ITA TOP 1.  Ciro Immobile (Italy)  -  Top XI
+ITA TOP 2.  Federico Dimarco (Italy)  -  Top XI
+
+ALB PTW.  Armando Broja (Albania)  -  Player to Watch  -  Holo Foil
+ALB SP.  Elseid Hysaj (Albania)  -  Star Player  -  Gold Foil
+ALB TOP 1.  Jasir Asani (Albania)  -  Top XI
+ALB TOP 2.  Kristjan Asllani (Albania)  -  Top XI
+
+ESP 1.  Logo (Spain)  -  Holo Foil
+ESP 2.  Álvaro Morata (Spain)  -  Captain  -  Holo Foil
+ESP 3.  Dani Olmo (Spain)  -  Artist  -  Holo Foil
+ESP 4.  Unai Simón (Spain)
+ESP 5.  César Azpilicueta (Spain)
+ESP 6.  Pedro Porro (Spain)
+ESP 7.  Alejandro Balde (Spain)
+ESP 8.  Robin Le Normand (Spain)
+ESP 9.  Pau Torres (Spain)
+ESP 10.  Aymeric Laporte (Spain)
+ESP 11.  Gavi (Spain)
+ESP 12.  Pedri (Spain)
+ESP 13.  Rodri (Spain)
+ESP 14.  Fabián Ruiz (Spain)
+ESP 15.  Nico Williams (Spain)
+ESP 16.  Mikel Oyarzabal (Spain)
+ESP 17.  Marco Asensio (Spain)
+ESP 18.  Yeremy Pino (Spain)
+ESP 19.  Lamine Yamal (Spain)
+ESP 20.  Ansu Fati (Spain)
+ESP 21.  Ferran Torres (Spain)
+
+CRO 1.  Logo (Croatia)  -  Holo Foil
+CRO 2.  Luka Modrić (Croatia)  -  Captain  -  Holo Foil
+CRO 3.  Mateo Kovačić (Croatia)  -  Artist  -  Holo Foil
+CRO 4.  Dominik Livaković (Croatia)
+CRO 5.  Josip Stanišić (Croatia)
+CRO 6.  Martin Erlić (Croatia)
+CRO 7.  Josip Šutalo (Croatia)
+CRO 8.  Borna Sosa (Croatia)
+CRO 9.  Joško Gvardiol (Croatia)
+CRO 10.  Domagoj Vida (Croatia)
+CRO 11.  Josip Juranović (Croatia)
+CRO 12.  Lovro Majer (Croatia)
+CRO 13.  Marcelo Brozović (Croatia)
+CRO 14.  Ivan Perišić (Croatia)
+CRO 15.  Mario Pašalić (Croatia)
+CRO 16.  Luka Ivanušec (Croatia)
+CRO 17.  Luka Sučić (Croatia)
+CRO 18.  Nikola Vlašić (Croatia)
+CRO 19.  Mislav Oršić (Croatia)
+CRO 20.  Andrej Kramarić (Croatia)
+CRO 21.  Bruno Petković (Croatia)
+
+ITA 1.  Logo (Italy)  -  Holo Foil
+ITA 2.  Leonardo Bonucci (Italy)  -  Captain  -  Holo Foil
+ITA 3.  Jorginho (Italy)  -  Artist  -  Holo Foil
+ITA 4.  Gianluigi Donnarumma (Italy)
+ITA 5.  Leonardo Spinazzola (Italy)
+ITA 6.  Francesco Acerbi (Italy)
+ITA 7.  Emerson Palmieri (Italy)
+ITA 8.  Giorgio Scalvini (Italy)
+ITA 9.  Allesandro Bastoni (Italy)
+ITA 10.  Federico Dimarco (Italy)
+ITA 11.  Gianluca Mancini (Italy)
+ITA 12.  Destiny Udogie (Italy)
+ITA 13.  Davide Frattesi (Italy)
+ITA 14.  Matteo Pessina (Italy)
+ITA 15.  Marco Verratti (Italy)
+ITA 16.  Manuel Locatelli (Italy)
+ITA 17.  Bryan Cristante (Italy)
+ITA 18.  Gianluca Scamacca (Italy)
+ITA 19.  Federico Chiesa (Italy)
+ITA 20.  Ciro Immobile (Italy)
+ITA 21.  Wilfired Gnonto (Italy)
+
+ALB 1.  Logo (Albania)  -  Holo Foil
+ALB 2.  Etrit Berisha (Albania)  -  Captain  -  Holo Foil
+ALB 3.  Nedim Bajrami (Albania)  -  Artist  -  Holo Foil
+ALB 4.  Thomas Strakosha (Albania)
+ALB 5.  Iván Balliu (Albania)
+ALB 6.  Berat Djimsiti (Albania)
+ALB 7.  Elseid Hysaj (Albania)
+ALB 8.  Marash Kumbulla (Albania)
+ALB 9.  Ardian Ismajli (Albania)
+ALB 10.  Keidi Bare (Albania)
+ALB 11.  Klaus Gjasula (Albania)
+ALB 12.  Qazim Laçi (Albania)
+ALB 13.  Kristjan Asllani (Albania)
+ALB 14.  Anis Mehmeti (Albania)
+ALB 15.  Ylber Ramadani (Albania)
+ALB 16.  Jasir Asani (Albania)
+ALB 17.  Myrto Uzuni (Albania)
+ALB 18.  Sokol Çikalleshi (Albania)
+ALB 19.  Ernest Muçi (Albania)
+ALB 20.  Mirlind Daku (Albania)
+ALB 21.  Armando Broja (Albania)
+
+Group C
+
+GC 1.  Overview 1/2
+GC 2.  Overview 2/2
+
+SVN P1.  Landmark 1/2
+SVN P2.  Landmark 2/2
+
+DEN P1.  Landmark 1/2
+DEN P2.  Landmark 2/2
+
+SRB P1.  Landmark 1/2
+SRB P2.  Landmark 2/2
+
+ENG P1.  Landmark 1/2
+ENG P2.  Landmark 2/2
+
+SVN PTW.  Žan Vipotnik (Slovenia)  -  Player to Watch  -  Holo Foil
+SVN SP.  Benjamin Šeško (Slovenia)  -  Star Player  -  Gold Foil
+SVN TOP 1.  Žan Karnicnik (Slovenia)  -  Top XI
+SVN TOP 2.  Andraž Šporar (Slovenia)  -  Top XI
+
+DEN PTW.  Rasmus Højlund (Denmark)  -  Player to Watch  -  Holo Foil
+DEN SP.  Pierre-Emile Højbjerg (Denmark)  -  Star Player  -  Gold Foil
+DEN TOP 1.  Andreas Christensen (Denmark)  -  Top XI
+DEN TOP 2.  Jonas Wind (Denmark)  -  Top XI
+
+SRB PTW.  Lazar Samardžić (Serbia)  -  Player to Watch  -  Holo Foil
+SRB SP.  Dušan Vlahović (Serbia)  -  Star Player  -  Gold Foil
+SRB TOP 1.  Nikola Milenković (Serbia)  -  Top XI
+SRB TOP 2.  Aleksandar Mitrović (Serbia)  -  Top XI
+
+ENG PTW.  Rico Lewis (England)  -  Player to Watch  -  Holo Foil
+ENG SP.  Jude Bellingham (England)  -  Star Player  -  Gold Foil
+ENG TOP 1.  Mason Mount (England)  -  Top XI
+ENG TOP 2.  Trent Alexander-Arnold (England)  -  Top XI
+
+SVN 1.  Logo (Slovenia)  -  Holo Foil
+SVN 2.  Jan Oblak (Slovenia)  -  Captain  -  Holo Foil
+SVN 3.  Benjamin Šeško (Slovenia)  -  Artist  -  Holo Foil
+SVN 4.  Jaka Bijol (Slovenia)
+SVN 5.  Jure Balkovec (Slovenia)
+SVN 6.  Miha Blažič (Slovenia)
+SVN 7.  Žan Karničnik (Slovenia)
+SVN 8.  Petar Stojanović (Slovenia)
+SVN 9.  David Brekalo (Slovenia)
+SVN 10.  Erik Janža (Slovenia)
+SVN 11.  Benjamin Verbič (Slovenia)
+SVN 12.  Sandi Lovrić (Slovenia)
+SVN 13.  Miha Zajc (Slovenia)
+SVN 14.  Jasmin Kurtić (Slovenia)
+SVN 15.  Adam  Gnezda Čerin (Slovenia)
+SVN 16.  Jon Gorenc Stanković (Slovenia)
+SVN 17.  Luka Zahovič (Slovenia)
+SVN 18.  Jan Mlakar (Slovenia)
+SVN 19.  Žan Vipotnik (Slovenia)
+SVN 20.  Andraž  Šporar (Slovenia)
+SVN 21.  Timi Max Elsnik (Slovenia)
+
+DEN 1.  Logo (Denmark)  -  Holo Foil
+DEN 2.  Simon Kjaer (Denmark)  -  Captain  -  Holo Foil
+DEN 3.  Mikkel Damsgaard (Denmark)  -  Artist  -  Holo Foil
+DEN 4.  Kasper Schmeichel (Denmark)
+DEN 5.  Andreas Christensen (Denmark)
+DEN 6.  Victor Nelsson (Denmark)
+DEN 7.  Joachim Andersen (Denmark)
+DEN 8.  Rasmus Kristensen (Denmark)
+DEN 9.  Jens Stryger (Denmark)
+DEN 10.  Mathias Jensen (Denmark)
+DEN 11.  Christian Nørgaard (Denmark)
+DEN 12.  Philip Billing (Denmark)
+DEN 13.  Christian Eriksen (Denmark)
+DEN 14.  Jesper Lindstrøm (Denmark)
+DEN 15.  Mohamed Daramy (Denmark)
+DEN 16.  Pierre-Emile Hojbjerg (Denmark)
+DEN 17.  Morten Hjulmand (Denmark)
+DEN 18.  Jonas Wind (Denmark)
+DEN 19.  Andreas Skov Olsen (Denmark)
+DEN 20.  Yussuf Poulsen (Denmark)
+DEN 21.  Rasmus Højlund (Denmark)
+
+SRB 1.  Logo (Serbia)  -  Holo Foil
+SRB 2.  Dušan Tadić (Serbia)  -  Captain  -  Holo Foil
+SRB 3.  Sergej Milinković-Savić (Serbia)  -  Artist  -  Holo Foil
+SRB 4.  Vanja Milinković-Savić (Serbia)
+SRB 5.  Strahinja Pavlović (Serbia)
+SRB 6.  Filip Mladenović (Serbia)
+SRB 7.  Miloš Veljković (Serbia)
+SRB 8.  Nikola Milenković (Serbia)
+SRB 9.  Strahinja Eraković (Serbia)
+SRB 10.  Srđan Babić (Serbia)
+SRB 11.  Nemanja Maksimović (Serbia)
+SRB 12.  Nemanja Gudelj (Serbia)
+SRB 13.  Saša Lukić (Serbia)
+SRB 14.  Marko Grujić (Serbia)
+SRB 15.  Ivan Ilić (Serbia)
+SRB 16.  Filip Đuričić (Serbia)
+SRB 17.  Lazar Samardžić (Serbia)
+SRB 18.  Filip Kostić (Serbia)
+SRB 19.  Andrija Živković (Serbia)
+SRB 20.  Aleksandar Mitrović (Serbia)
+SRB 21.  Dušan Vlahović (Serbia)
+
+ENG 1.  Logo (England)  -  Holo Foil
+ENG 2.  Harry Kane (England)  -  Captain  -  Holo Foil
+ENG 3.  Cole Palmer (England)  -  Artist  -  Holo Foil
+ENG 4.  Jordan Pickford (England)
+ENG 5.  Luke Thomas (England)
+ENG 6.  Harry Maguire (England)
+ENG 7.  Kieran Trippier (England)
+ENG 8.  Luke Shaw (England)
+ENG 9.  Trent Alexander-Arnold (England)
+ENG 10.  Marc Guéhi (England)
+ENG 11.  Fikayo Tomori (England)
+ENG 12.  Rico Lewis (England)
+ENG 13.  Eberechi Eze (England)
+ENG 14.  Declan Rice (England)
+ENG 15.  Jordan Henderson (England)
+ENG 16.  Jude Bellingham (England)
+ENG 17.  Mason Mount (England)
+ENG 18.  Jarrod Bowen (England)
+ENG 19.  Jack Grealish (England)
+ENG 20.  Ollie Watkins (England)
+ENG 21.  Callum Wilson (England)
+
+Dream Team
+Create your own Dream Team with your duplicate stickers
+
+MM 1.  Albärt (UEFA 2024 Mascot)
+MM 2.  José Mourinho Signature
+
+Group D
+
+GD 1.  Overview 1/2
+GD 2.  Overview 2/2
+
+NED P1.  Landmark 1/2
+NED P2.  Landmark 2/2
+
+AUT P1.  Landmark 1/2
+AUT P2.  Landmark 2/2
+
+FRA P1.  Landmark 1/2
+FRA P2.  Landmark 2/2
+
+POL SP.  Robert Lewandowski (Poland)  -  Star Player
++  EST SP.  Markus Poom (Estonia)  -  Star Player
+WAL SP.  Brennan Johnson (Wales)  -  Star Player
++  FIN SP.  Teemu Pukki (Finland)  -  Star Player
+
+NED PTW.  Xavi Simons (Netherlands)  -  Player to Watch  -  Holo Foil
+NED SP.  Cody Gakpo (Netherlands)  -  Star Player  -  Gold Foil
+NED TOP 1.  Frenkie de Jong (Netherlands)  -  Top XI
+NED TOP 2.  Donyell Malen (Netherlands)  -  Top XI
+
+AUT PTW.  Nicolas Seiwald (Austria)  -  Player to Watch  -  Holo Foil
+AUT SP.  Marko Arnautović (Austria)  -  Star Player  -  Gold Foil
+AUT TOP 1.  Konrad Laimer (Austria)  -  Top XI
+AUT TOP 2.  Patrick Wimmer (Austria)  -  Top XI
+
+FRA PTW.  Eduardo Camavinga (France)  -  Player to Watch  -  Holo Foil
+FRA SP.  Kingsley Coman (France)  -  Star Player  -  Gold Foil
+FRA TOP 1.  Randal Kolo Muani (France)  -  Top XI
+FRA TOP 2.  Ousmane Dembélé (France)  -  Top XI
+
+POL 1.  Logo (Poland)  -  Holo Foil
+POL 2.  Wojciech Szczęsny (Poland)
++  POL 3.  Jan Bednarek (Poland)
+POL 4.  Matty Cash (Poland)
++  POL 5.  Mateusz Wieteska (Poland)
+POL 6.  Tomasz Kędziora (Poland)
++  POL 7.  Jakub Kiwior (Poland)
+POL 8.  Bartosz Slisz (Poland)
++  POL 9.  Nicola Zalewski (Poland)
+POL 10.  Piotr Zieliński (Poland)
++  POL 11.  Kacper Kozłowski (Poland)
+POL 12.  Damian Szymański (Poland)
++  POL 13.  Karol Linetty (Poland)
+POL 14.  Arkadiusz Milik (Poland)
++  POL 15.  Robert Lewandowski (Poland)
+
+EST 1.  Logo (Estonia)  -  Holo Foil
+EST 2.  Karl Hein (Estonia)
++  EST 3.  Joonas Tamm (Estonia)
+EST 4.  Märten Kuusk (Estonia)
++  EST 5.  Artur Pikk (Estonia)
+EST 6.  Marco Lukka (Estonia)
++  EST 7.  Rasmus Peetson (Estonia)
+EST 8.  Maksim Paskotsi (Estonia)
++  EST 9.  Taijo Teniste (Estonia)
+EST 10.  Nikita Baranov (Estonia)
++  EST 11.  Rocco Shein (Estonia)
+EST 12.  Georgi Tunjov (Estonia)
++  EST 13.  Martin Miller (Estonia)
+EST 14.  Markus Poom (Estonia)
++  EST 15.  Martin Vetkal (Estonia)
+
+WAL 1.  Logo (Wales)  -  Holo Foil
+WAL 2.  Danny Ward (Wales)
++  WAL 3.  Ben Davies (Wales)
+WAL 4.  Neco Williams (Wales)
++  WAL 5.  Joe Rodon (Wales)
+WAL 6.  Connor Roberts (Wales)
++  WAL 7.  Chris Mepham (Wales)
+WAL 8.  Aaron Ramsey (Wales)
++  WAL 9.  David Brooks (Wales)
+WAL 10.  Harry Wilson (Wales)
++  WAL 11.  Jordan James (Wales)
+WAL 12.  Ethan Ampadu (Wales)
++  WAL 13.  Daniel James (Wales)
+WAL 14.  Kieffer Moore (Wales)
++  WAL 15.  Brennan Johnson (Wales)
+
+FIN 1.  Logo (Finland)  -  Holo Foil
+FIN 2.  Lukas Hradecky (Finland)
++  FIN 3.  Leo Väisänen (Finland)
+FIN 4.  Arttu Hoskonen (Finland)
++  FIN 5.  Nikolai Alho (Finland)
+FIN 6.  Robert Ivanov (Finland)
++  FIN 7.  Robin Lod (Finland)
+FIN 8.  Glen Kamara (Finland)
++  FIN 9.  Robert Taylor (Finland)
+FIN 10.  Rasmus Schüller (Finland)
++  FIN 11.  Kaan Kairinen (Finland)
+FIN 12.  Oliver Antman (Finland)
++  FIN 13.  Joel Pohjanpalo (Finland)
+FIN 14.  Benjamin Källman (Finland)
++  FIN 15.  Teemu Pukki (Finland)
+
+NED 1.  Logo (Netherlands)  -  Holo Foil
+NED 2.  Virgil van Dijk (Netherlands)  -  Captain  -  Holo Foil
+NED 3.  Frenkie de Jong (Netherlands)  -  Artist  -  Holo Foil
+NED 4.  Justin Bijlow (Netherlands)
+NED 5.  Jeremie Frimpong (Netherlands)
+NED 6.  Micky Van de Ven (Netherlands)
+NED 7.  Matthijs de Ligt (Netherlands)
+NED 8.  Denzel Dumfries (Netherlands)
+NED 9.  Lutsharel Geertruida (Netherlands)
+NED 10.  Daley Blind (Netherlands)
+NED 11.  Quilindschy Hartman (Netherlands)
+NED 12.  Nathan Aké (Netherlands)
+NED 13.  Tijjani Reijnders (Netherlands)
+NED 14.  Marten de Roon (Netherlands)
+NED 15.  Teun Koopmeiners (Netherlands)
+NED 16.  Donyell Malen (Netherlands)
+NED 17.  Xavi Simons (Netherlands)
+NED 18.  Cody Gakpo (Netherlands)
+NED 19.  Noa Lang (Netherlands)
+NED 20.  Steven Bergwijn (Netherlands)
+NED 21.  Memphis Depay (Netherlands)
+
+AUT 1.  Logo (Austria)  -  Holo Foil
+AUT 2.  David Alaba (Austria)  -  Captain  -  Holo Foil
+AUT 3.  Junior Adamu (Austria)  -  Artist  -  Holo Foil
+AUT 4.  Alexander Schlager (Austria)
+AUT 5.  Stefan Posch (Austria)
+AUT 6.  Philipp Lienhart (Austria)
+AUT 7.  Phillipp Mwene (Austria)
+AUT 8.  Maximilian Wöber (Austria)
+AUT 9.  Kevin Danso (Austria)
+AUT 10.  Marcel Sabitzer (Austria)
+AUT 11.  Nicolas Seiwald (Austria)
+AUT 12.  Florian Grillitsch (Austria)
+AUT 13.  Xaver Schlager (Austria)
+AUT 14.  Konrad Laimer (Austria)
+AUT 15.  Christoph Baumgartner (Austria)
+AUT 16.  Florian Kainz (Austria)
+AUT 17.  Patrick Wimmer (Austria)
+AUT 18.  Marko Arnautović (Austria)
+AUT 19.  Sasa Kalajdzic (Austria)
+AUT 20.  Manprit Sarkaria (Austria)
+AUT 21.  Michael Gregoritsch (Austria)
+
+FRA 1.  Logo (France)  -  Holo Foil
+FRA 2.  Zinedine Zidane (France)  -  Captain  -  Legend  -  Holo Foil
+FRA 3.  Ousmane Dembéle (France)  -  Artist  -  Holo Foil
+FRA 4.  Mike Maignan (France)
+FRA 5.  Ibrahima Konaté (France)
+FRA 6.  Jules Koundé (France)
+FRA 7.  Dayot Upamecano (France)
+FRA 8.  Castello Lukeba (France)
+FRA 9.  Mohamed Simakan (France)
+FRA 10.  Lucas Hernández (France)
+FRA 11.  Pierre Kalulu (France)
+FRA 12.  Theo Hernández (France)
+FRA 13.  Eduardo Camavinga (France)
+FRA 14.  Aurélien Tchouameni (France)
+FRA 15.  Adrien Rabiot (France)
+FRA 16.  Warren Zaïre-Emery (France)
+FRA 17.  Randal Kolo Muani (France)
+FRA 18.  Olivier Giroud (France)
+FRA 19.  Kingsley Coman (France)
+FRA 20.  Antoine Griezmann (France)
+FRA 21.  Marcus Thuram (France)
+
+Group E
+
+GE 1.  Overview 1/2
+GE 2.  Overview 2/2
+
+BEL P1.  Landmark 1/2
+BEL P2.  Landmark 2/2
+
+SVK P1.  Landmark 1/2
+SVK P2.  Landmark 2/2
+
+ROM P1.  Landmark 1/2
+ROM P2.  Landmark 2/2
+
+BEL PTW.  Johan Bakayoko (Belgium)  -  Player to Watch  -  Holo Foil
+BEL SP.  Romelu Lukaku (Belgium)  -  Star Player  -  Gold Foil
+BEL TOP 1.  Lois Openda (Belgium)  -  Top XI
+BEL TOP 2.  Leandro Trossard (Belgium)  -  Top XI
+
+SVK PTW.  Tomáš  Suslov (Slovakia)  -  Player to Watch  -  Holo Foil
+SVK SP.  Stanislav Lobotka (Slovakia)  -  Star Player  -  Gold Foil
+SVK TOP 1.  Dávid  Hancko (Slovakia)  -  Top XI
+SVK TOP 2.  Róbert  Mak (Slovakia)  -  Top XI
+
+ROM PTW.  Ianis Hagi (Romania)  -  Player to Watch  -  Holo Foil
+ROM SP.  Răzvan Marin (Romania)  -  Star Player  -  Gold Foil
+ROM TOP 1.  Valentin Mihăilă (Romania)  -  Top XI
+ROM TOP 2.  Darius Olaru (Romania)  -  Top XI
+
+ISR SP.  Manor Solomon (Israel)  -  Star Player
++  ICE SP.  Alfred Finnbogason (Iceland)  -  Star Player
+BIH SP.  Rade Krunić (Bosnia and Herzegovina)  -  Star Player
++  UKR SP.  Mykhailo Mudryk (Ukraine)  -  Star Player
+
+BEL 1.  Logo (Belgium)  -  Holo Foil
+BEL 2.  Kevin De Bruyne (Belgium)  -  Captain  -  Holo Foil
+BEL 3.  Amadou Onana (Belgium)  -  Artist  -  Holo Foil
+BEL 4.  Thibaut Courtois (Belgium)
+BEL 5.  Jan Vertonghen (Belgium)
+BEL 6.  Wout Faes (Belgium)
+BEL 7.  Timothy Castagne (Belgium)
+BEL 8.  Arthur Theate (Belgium)
+BEL 9.  Zeno Debast (Belgium)
+BEL 10.  Ameen Al-Dakhil (Belgium)
+BEL 11.  Leander Dendoncker (Belgium)
+BEL 12.  Romeo Lavia (Belgium)
+BEL 13.  Youri Tielemans (Belgium)
+BEL 14.  Charles De Ketelaere (Belgium)
+BEL 15.  Yannick Carrasco (Belgium)
+BEL 16.  Alexis Saelemaekers (Belgium)
+BEL 17.  Leandro Trossard (Belgium)
+BEL 18.  Jérémy Doku (Belgium)
+BEL 19.  Romelu Lukaku (Belgium)
+BEL 20.  Michy Batshuayi (Belgium)
+BEL 21.  Loïs Openda (Belgium)
+
+SVK 1.  Logo (Slovakia)  -  Holo Foil
+SVK 2.  Milan Škriniar (Slovakia)  -  Captain  -  Holo Foil
+SVK 3.  Laci Bénes (Slovakia)  -  Artist  -  Holo Foil
+SVK 4.  Martin Dúbravka (Slovakia)
+SVK 5.  Peter Pekarík (Slovakia)
+SVK 6.  Denis Vavro (Slovakia)
+SVK 7.  Michal Tomič (Slovakia)
+SVK 8.  Dávid  Hancko (Slovakia)
+SVK 9.  Ondrej Duda (Slovakia)
+SVK 10.  Patrik Hrošovský (Slovakia)
+SVK 11.  Jakub Kadák (Slovakia)
+SVK 12.  Juraj Kucka (Slovakia)
+SVK 13.  Matúš  Bero (Slovakia)
+SVK 14.  Stanislav Lobotka (Slovakia)
+SVK 15.  Tomáš  Suslov (Slovakia)
+SVK 16.  Róbert  Boženík (Slovakia)
+SVK 17.  Róbert  Polievka (Slovakia)
+SVK 18.  Adam Zreľák (Slovakia)
+SVK 19.  Lukáš  Haraslin (Slovakia)
+SVK 20.  Róbert  Mak (Slovakia)
+SVK 21.  Erik Jirka (Slovakia)
+
+ROM 1.  Logo (Romania)  -  Holo Foil
+ROM 2.  Nicolae Stanciu (Romania)  -  Captain  -  Holo Foil
+ROM 3.  Ianis Hagi (Romania)  -  Artist  -  Holo Foil
+ROM 4.  Horațiu Moldovan (Romania)
+ROM 5.  Andrei Rațiu (Romania)
+ROM 6.  Radu Drăgușin (Romania)
+ROM 7.  Cristian Manea (Romania)
+ROM 8.  Vladimir Screciu (Romania)
+ROM 9.  Nicușor  Bancu (Romania)
+ROM 10.  Andrei Burcă (Romania)
+ROM 11.  Tudor Băluţă (Romania)
+ROM 12.  Alexandru Cicâldău (Romania)
+ROM 13.  Darius Olaru (Romania)
+ROM 14.  Răzvan Marin (Romania)
+ROM 15.  Olimpiu Moruţan (Romania)
+ROM 16.  Marius Marin (Romania)
+ROM 17.  George Puşcaş (Romania)
+ROM 18.  Valentin Mihăilă (Romania)
+ROM 19.  Denis Alibec (Romania)
+ROM 20.  Florinel Coman (Romania)
+ROM 21.  Dennis Man (Romania)
+
+ISR 1.  Logo (Israel)  -  Holo Foil
+ISR 2.  Omri Glazer (Israel)
++  ISR 3.  Miguel Vítor (Israel)
+ISR 4.  Raz Shlomo (Israel)
++  ISR 5.  Eli Dasa (Israel)
+ISR 6.  Sean Goldberg (Israel)
++  ISR 7.  Roy Revivo (Israel)
+ISR 8.  Doron Leidner (Israel)
++  ISR 9.  Oscar Gloukh (Israel)
+ISR 10.  Dor Peretz (Israel)
++  ISR 11.  Neta Lavi (Israel)
+ISR 12.  Ramzi Safouri (Israel)
++  ISR 13.  Gavriel Kanichowsky (Israel)
+ISR 14.  Liel Abada (Israel)
++  ISR 15.  Manor Solomon (Israel)
+
+ICE 1.  Logo (Iceland)  -  Holo Foil
+ICE 2.  Rúnar Rúnarsson (Iceland)
++  ICE 3.  Alfons Sampsted (Iceland)
+ICE 4.  Davíð Kristján Ólafsson (Iceland)
++  ICE 5.  Valgeir Lunddal Fridriksson (Iceland)
+ICE 6.  Sverrir Ingason (Iceland)
++  ICE 7.  Hjörtur Hermannsson (Iceland)
+ICE 8.  Daníel Leó Grétarsson (Iceland)
++  ICE 9.  Aron Gunnarsson (Iceland)
+ICE 10.  Birkir Bjarnason (Iceland)
++  ICE 11.  Jón Dagur Thorsteinsson (Iceland)
+ICE 12.  Albert Gudmundsson (Iceland)
++  ICE 13.  Willum Thor Willumsson (Iceland)
+ICE 14.  Mikael Anderson (Iceland)
++  ICE 15.  Alfred Finnbogason (Iceland)
+
+BIH 1.  Logo (Bosnia and Herzegovina)  -  Holo Foil
+BIH 2.  Ibrahim Šehić (Bosnia and Herzegovina)
++  BIH 3.  Anel Ahmedhodžić (Bosnia and Herzegovina)
+BIH 4.  Dennis Hadžikadunić (Bosnia and Herzegovina)
++  BIH 5.  Amar Dedić (Bosnia and Herzegovina)
+BIH 6.  Sead Kolašinac (Bosnia and Herzegovina)
++  BIH 7.  Benjamin Tahirović (Bosnia and Herzegovina)
+BIH 8.  Miralem Pjanić (Bosnia and Herzegovina)
++  BIH 9.  Gojko Cimirot (Bosnia and Herzegovina)
+BIH 10.  Amir Hadžiahmetović (Bosnia and Herzegovina)
++  BIH 11.  Rade Krunić (Bosnia and Herzegovina)
+BIH 12.  Edin Džeko (Bosnia and Herzegovina)
++  BIH 13.  Nemanja Bilbija (Bosnia and Herzegovina)
+BIH 14.  Smail Prevljak (Bosnia and Herzegovina)
++  BIH 15.  Ermedin Demirović (Bosnia and Herzegovina)
+
+UKR 1.  Logo (Ukraine)  -  Holo Foil
+UKR 2.  Anatoliy Trubin (Ukraine)
++  UKR 3.  Yukhym Konoplia (Ukraine)
+UKR 4.  Bogdan Mykhaylichenko (Ukraine)
++  UKR 5.  Oleksandr Zinchenko (Ukraine)
+UKR 6.  Illia Zabarnyi (Ukraine)
++  UKR 7.  Vitaliy Mykolenko (Ukraine)
+UKR 8.  Mykola Matviyenko (Ukraine)
++  UKR 9.  Georgiy Sudakov (Ukraine)
+UKR 10.  Taras Stepanenko (Ukraine)
++  UKR 11.  Serhiy Sydorchuk (Ukraine)
+UKR 12.  Viktor Tsygankov (Ukraine)
++  UKR 13.  Andriy Yarmolenko (Ukraine)
+UKR 14.  Roman Yaremchuk (Ukraine)
++  UKR 15.  Mykhailo Mudryk (Ukraine)
+
+Group F
+
+GF 1.  Overview 1/2
+GF 2.  Overview 2/2
+
+TUR P1.  Landmark 1/2
+TUR P2.  Landmark 2/2
+
+POR P1.  Landmark 1/2
+POR P2.  Landmark 2/2
+
+CZE P1.  Landmark 1/2
+CZE P2.  Landmark 2/2
+
+TUR PTW.  Arda Güler (Turkey)  -  Player to Watch  -  Holo Foil
+TUR SP.  Cengiz Ünder (Turkey)  -  Star Player  -  Gold Foil
+TUR TOP 1.  Merih Demiral (Turkey)  -  Top XI
+TUR TOP 2.  Orkun Kökçü (Turkey)  -  Top XI
+
+GEO SP.  Khvicha Kvaratskhelia (Georgia)  -  Star Player
++  LUX SP.  Leandro Barreiro (Luxembourg)  -  Star Player
+GRE SP.  Konstantinos Mavropanos (Greece)  -  Star Player
++  KAZ SP.  Bakhtiyor Zaynutdinov (Kazakhstan)  -  Star Player
+
+POR PTW.  Rafael Leão (Portugal)  -  Player to Watch  -  Holo Foil
+POR SP.  Bernardo Silva (Portugal)  -  Star Player  -  Gold Foil
+POR TOP 1 .  Bruno Fernandes (Portugal)  -  Top XI
+POR TOP 2.  Gonçalo Ramos (Portugal)  -  Top XI
+
+CZE PTW.  Adam Hložek (Czechia)  -  Player to Watch  -  Holo Foil
+CZE SP.  Patrik Schick (Czechia)  -  Star Player  -  Gold Foil
+CZE TOP 1.  Tomáš Holeš (Czechia)  -  Top XI
+CZE TOP 2.  Alex Král (Czechia)  -  Top XI
+
+TUR 1.  Logo (Turkey)  -  Holo Foil
+TUR 2.  Hakan Çalhanoğlu (Turkey)  -  Captain  -  Holo Foil
+TUR 3.  Barış Alper Yılmaz (Turkey)  -  Artist  -  Holo Foil
+TUR 4.  Mert Günok (Turkey)
+TUR 5.  Zeki Çelik (Turkey)
+TUR 6.  Çağlar Söyüncü (Turkey)
+TUR 7.  Eren Elmalı (Turkey)
+TUR 8.  Abdülkerim Bardakcı  (Turkey)
+TUR 9.  Ozan Kabak (Turkey)
+TUR 10.  Onur Bulut (Turkey)
+TUR 11.  Ferdi Kadıoğlu (Turkey)
+TUR 12.  Merih Demiral (Turkey)
+TUR 13.  Cenk Özkacar (Turkey)
+TUR 14.  Salih Özcan (Turkey)
+TUR 15.  İrfan Can Kahveci (Turkey)
+TUR 16.  Arda Güler (Turkey)
+TUR 17.  Orkun Kökçü (Turkey)
+TUR 18.  Kerem Aktürkoğlu (Turkey)
+TUR 19.  Cenk Tosun (Turkey)
+TUR 20.  Enes Ünal (Turkey)
+TUR 21.  Cengiz Ünder (Turkey)
+
+GEO 1.  Logo (Georgia)  -  Holo Foil
+GEO 2.  Giorgi Mamardashvili (Georgia)
++  GEO 3.  Guram Kashia (Georgia)
+GEO 4.  Otar Kakabadze (Georgia)
++  GEO 5.  Girogi Gocholeishvili (Georgia)
+GEO 6.  Lasha Dvali (Georgia)
++  GEO 7.  Solomon Kverkvelia (Georgia)
+GEO 8.  Luka Lochoshvili (Georgia)
++  GEO 9.  Khvicha Kvaratskhelia (Georgia)
+GEO 10.  Saba Lobjanidze (Georgia)
++  GEO 11.  Nika Kvekveskiri (Georgia)
+GEO 12.  Giorgi Chakvetadze (Georgia)
++  GEO 13.  Zuriko Davitashvili (Georgia)
+GEO 14.  Budu Zivzivadze (Georgia)
++  GEO 15.  Georges Mikautadze (Georgia)
+
+LUX 1.  Logo (Luxembourg)  -  Holo Foil
+LUX 2.  Anthony Moris (Luxembourg)
++  LUX 3.  Maxime Chanot (Luxembourg)
+LUX 4.  Lars Gerson (Luxembourg)
++  LUX 5.  Mica Pinto (Luxembourg)
+LUX 6.  Enes Mahmutovic (Luxembourg)
++  LUX 7.  Laurent Jans (Luxembourg)
+LUX 8.  Marvin Martins (Luxembourg)
++  LUX 9.  Vincent Thill (Luxembourg)
+LUX 10.  Christopher Martins (Luxembourg)
++  LUX 11.  Leandro Barreiro (Luxembourg)
+LUX 12.  Mathias Olesen (Luxembourg)
++  LUX 13.  Gerson Rodrigues (Luxembourg)
+LUX 14.  Danel Sinani (Luxembourg)
++  LUX 15.  Yvandro Borges Sanches (Luxembourg)
+
+GRE 1.  Logo (Greece)  -  Holo Foil
+GRE 2.  Odysseas Vlachodimos (Greece)
++  GRE 3.  Panagiotis Retsos (Greece)
+GRE 4.  Pantelis Chatzidiakos (Greece)
++  GRE 5.  Kostas Tsimakas (Greece)
+GRE 6.  Konstantinos Mavropanos (Greece)
++  GRE 7.  Dimitris Giannoulis (Greece)
+GRE 8.  George Baldock (Greece)
++  GRE 9.  Andreas Bouchalakis (Greece)
+GRE 10.  Dimitris Pelkas (Greece)
++  GRE 11.  Dimitrios Kourmbelis (Greece)
+GRE 12.  Tasos Bakasetas (Greece)
++  GRE 13.  Petros Mantalos (Greece)
+GRE 14.  Manolis Siopis (Greece)
++  GRE 15.  Giorgios Masouras (Greece)
+
+KAZ 1.  Logo (Kazakhstan)  -  Holo Foil
+KAZ 2.  Igor Shatskiy (Kazakhstan)
++  KAZ 3.  Nuraly Alip (Kazakhstan)
+KAZ 4.  Lev Skvortsov (Kazakhstan)
++  KAZ 5.  Alexandr Marochkin (Kazakhstan)
+KAZ 6.  Abzal Beysebekov (Kazakhstan)
++  KAZ 7.  Yan Vorogovskiy (Kazakhstan)
+KAZ 8.  Ramazan Orazov (Kazakhstan)
++  KAZ 9.  Askhat Tagybergen (Kazakhstan)
+KAZ 10.  Aslan Darabayev (Kazakhstan)
++  KAZ 11.  Bakhtiyor Zaynutdinov (Kazakhstan)
+KAZ 12.  Elkhan Astanov (Kazakhstan)
++  KAZ 13.  Abat Aimbetov (Kazakhstan)
+KAZ 14.  Maxim Samorodov (Kazakhstan)
++  KAZ 15.  Vladislav Prokopenko (Kazakhstan)
+
+POR 1.  Logo (Portugal)  -  Holo Foil
+POR 2.  Cristiano Ronaldo (Portugal)  -  Captain  -  Holo Foil
+POR 3.  João Félix (Portugal)  -  Artist  -  Holo Foil
+POR 4.  Diogo Costa (Portugal)
+POR 5.  Nélson Semedo (Portugal)
+POR 6.  António Silva (Portugal)
+POR 7.  Rúben Dias (Portugal)
+POR 8.  Raphaël Guerreiro (Portugal)
+POR 9.  Diogo Dalot (Portugal)
+POR 10.  Nuno Mendes (Portugal)
+POR 11.  João Cancelo (Portugal)
+POR 12.  João Palhinha (Portugal)
+POR 13.  Danilo (Portugal)
+POR 14.  Otávio (Portugal)
+POR 15.  Rúben Neves (Portugal)
+POR 16.  Vitinha (Portugal)
+POR 17.  Bruno Fernandes (Portugal)
+POR 18.  Bernardo Silva (Portugal)
+POR 19.  Gonçalo Ramos (Portugal)
+POR 20.  Diogo Jota (Portugal)
+POR 21.  Rafael Leão (Portugal)
+
+CZE 1.  Logo (Czechia)  -  Holo Foil
+CZE 2.  Tomáš Souček (Czechia)  -  Captain  -  Holo Foil
+CZE 3.  Mojmír Chytil (Czechia)  -  Artist  -  Holo Foil
+CZE 4.  Jiří Pavlenka (Czechia)
+CZE 5.  David Jurásek (Czechia)
+CZE 6.  Jakub Brabec (Czechia)
+CZE 7.  Vladimír Coufal (Czechia)
+CZE 8.  Jaroslav Zelený (Czechia)
+CZE 9.  David Douděra (Czechia)
+CZE 10.  Tomáš Holeš (Czechia)
+CZE 11.  Alex Král (Czechia)
+CZE 12.  Ladislav Krejčí (Czechia)
+CZE 13.  Michal Sadílek (Czechia)
+CZE 14.  Ondřej Lingr (Czechia)
+CZE 15.  Lukáš Sadílek (Czechia)
+CZE 16.  Adam Hložek (Czechia)
+CZE 17.  Tomáš Čvančara (Czechia)
+CZE 18.  Jan Kuchta (Czechia)
+CZE 19.  Patrik Schick (Czechia)
+CZE 20.  Václav Černý (Czechia)
+CZE 21.  Václav Jurečka (Czechia)
+
+Euro Legends
+10 stickers
+
+LEG 1.  Fernando Torres (Spain)
+LEG 2.  Gareth Bale (Wales)
+LEG 3.  Wayne Rooney (England)  -  Holo Foil
+LEG 4.  Pavel Nedved (Czech Republic)
+LEG 5.  Andriy Shevchenko (Ukraine)
+LEG 6.  Clarence Seedorf (Netherlands)
+LEG 7.  Luis Figo (Portugal)
+LEG 8.  Zinedine Zidane (France)  -  Holo Foil
+LEG 9.  Franz Beckenbauer (West Germany)  -  Holo Foil
+LEG 10.  Zlatan Ibrahimović (Sweden)

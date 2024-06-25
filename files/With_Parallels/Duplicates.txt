@@ -1,0 +1,32 @@
+You have 37 duplicate stickers.
+
+UEFA 3.  "Corporate Sticker" x1
+EURO 10.  "Stuttgart" x1
+GA 1.  "Overview 1/2" x1
+SCO 5.  "Grant Hanley" x2
+HUN P 1.  "Landmark 1/2" x1
+SUI 6.  "Manuel Akanji" x2
+ESP P 2.  "Landmark 2/2" x1
+CRO 14.  "Ivan Peri\9532\237i\9472\231" x1
+ITA 7.  "Emerson Palmieri" x1
+ITA 8.  "Giorgio Scalvini" x1
+ALB 3.  "Nedim Bajrami" x1
+ALB 12.  "Qazim La\9500\186i" x1
+DEN 5.  "Andreas Christensen" x1
+DEN 10.  "Mathias Jensen" x1
+NED 4.  "Justin Bijlow" x1
+FIN 8.  "Glen Kamara" x1
+FIN 9.  "Robert Taylor" x1
+SVK 20.  "R\9500\9474bert  Mak" x2
+ROM 3.  "Ianis Hagi" x1
+ROM 7.  "Cristian Manea" x2
+ROM 20.  "Florinel Coman" x2
+BIH 2.  "Ibrahim \9532\225ehi\9472\231" x1
+BIH 3.  "Anel Ahmedhod\9532\9563i\9472\231" x1
+CZE 4.  "Ji\9532\214\9500\161 Pavlenka" x1
+CZE 13.  "Michal Sad\9500\161lek" x1
+GRE SP.  "Konstantinos Mavropanos" x2
+KAZ SP.  "Bakhtiyor Zaynutdinov" x2
+KAZ 8.  "Ramazan Orazov" x1
+KAZ 9.  "Askhat Tagybergen" x1
+LEG 2.  "Gareth Bale" x1
