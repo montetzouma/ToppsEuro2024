@@ -20,6 +20,7 @@ extra-source-files:
 description:         Please see the README on GitHub at <https://github.com/montetzouma/ToppsEuro2024#readme>
 
 default-extensions:
+- NamedFieldPuns
 - RecordWildCards
 - TupleSections
 

@@ -81,12 +81,11 @@ data Subchapter
   deriving (Eq, Ord)
 
 instance Show Subchapter where
-  show (P      n) = unwords ["P", show n]
-  show PTW        = "PTW"
-  show SP         = "SP"
-  show (TOP    n) = unwords ["TOP", show n]
+  show (P      n) = mconcat ["-P", show n]
+  show PTW        = "-PTW"
+  show SP         = "-SP"
+  show (TOP    n) = mconcat ["-TOP", show n]
   show (Number n) = show n
-
 
 data Rarity
   = Common              -- Not rare (no foil at all or silver foil)
@@ -102,16 +101,15 @@ data Rarity
   deriving (Enum, Eq, Ord)
 
 instance Show Rarity where
-  show Common              = ""
-  show StarPlayerUnsigned  = "Unsigned Gold Foil"
-  show StarPlayerSigned    = "Signed Gold Foil"
-  show MegaEcoBoxExclusive = "Red Dots Foil (Mega Eco Box Exclusive)"
-  show Rare                = "Purple Foil (Rare)" 
-  show VeryRare            = "Topps Foil (Very Rare)"
-  show SuperRare           = "Green Foil (Super Rare)"
-  show MegaRare            = "Blue Foil (Mega Rare)"
-  show UltraRare           = "Black Foil (Ultra Rare)"
-  show OneOfAKind          = "Gold Foil (One of a kind)"
+  show StarPlayerSigned    = "-s"
+  show MegaEcoBoxExclusive = "-eu"
+  show Rare                = "-p" 
+  show VeryRare            = "-tp"
+  show SuperRare           = "-g"
+  show MegaRare            = "-bu"
+  show UltraRare           = "-b"
+  show OneOfAKind          = "-g"
+  show _                   = ""
 
 
 data Sticker = Sticker
@@ -119,7 +117,6 @@ data Sticker = Sticker
   , subchapter :: Subchapter
   , info       :: String 
   , rarity     :: Maybe Rarity }  -- Set Rarity=Nothing if you don't care about parallel versions.
-
 
 instance Eq Sticker where
   (==) Sticker{chapter=chapter1, subchapter=subchapter1, rarity=rarity1} Sticker{chapter=chapter2, subchapter=subchapter2, rarity=rarity2}
@@ -132,14 +129,15 @@ instance Ord Sticker where
     = compare (chapter1, subchapter1, rarity1) (chapter2, subchapter2, rarity2)
 
 instance Show Sticker where
-  show Sticker{..} = wholeString
+  show Sticker{chapter, subchapter, rarity} = wholeString
     where
-      mainString = mconcat [show chapter, " ", show subchapter, ".  ", show info]
+      mainString = mconcat [show chapter, show subchapter]
 
-      wholeString = case rarity of 
-        Just Common -> mainString
-        Nothing     -> mainString
-        Just r      -> mconcat [mainString, " - ", show r] 
+      rarityString = case rarity of 
+        Just r  -> show r 
+        Nothing -> ""
+
+      wholeString = mconcat [mainString, rarityString]
 
 
 data StickerCollection = StickerCollection

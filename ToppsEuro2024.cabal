@@ -36,6 +36,7 @@ library
   hs-source-dirs:
       src
   default-extensions:
+      NamedFieldPuns
       RecordWildCards
       TupleSections
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wno-unused-do-bind -Wpartial-fields -Wredundant-constraints
@@ -56,6 +57,7 @@ executable ToppsEuro2024-exe
   hs-source-dirs:
       app
   default-extensions:
+      NamedFieldPuns
       RecordWildCards
       TupleSections
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wno-unused-do-bind -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
@@ -78,6 +80,7 @@ test-suite ToppsEuro2024-test
   hs-source-dirs:
       test
   default-extensions:
+      NamedFieldPuns
       RecordWildCards
       TupleSections
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wno-unused-do-bind -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
