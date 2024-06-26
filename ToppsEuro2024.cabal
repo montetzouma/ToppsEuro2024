@@ -6,6 +6,7 @@ cabal-version: 2.2
 
 name:           ToppsEuro2024
 version:        0.1.0.0
+synopsis:       Sticker tracker for the Topps Euro 2024 album.
 description:    Please see the README on GitHub at <https://github.com/montetzouma/ToppsEuro2024#readme>
 homepage:       https://github.com/montetzouma/ToppsEuro2024#readme
 bug-reports:    https://github.com/montetzouma/ToppsEuro2024/issues
