@@ -1,32 +1,46 @@
-You have 57 duplicate stickers.
+You have 77 duplicate stickers.
 
 UEFA 3.  "Corporate Sticker" x1
 EURO 10.  "Stuttgart" x1
 GA 1.  "Overview 1/2" x1
-GER 5.  "Nico Schlotterbeck" x1
+GER 5.  "Nico Schlotterbeck" x2
 SCO 5.  "Grant Hanley" x2
 SCO 7.  "Liam Cooper" x1
 HUN P 1.  "Landmark 1/2" x1
-HUN TOP 1.  "Martin \9500\252d\9500\237m" x1
+HUN TOP 1.  "Martin \9500\252d\9500\237m" x2
 SUI 6.  "Manuel Akanji" x2
+SUI 18.  "Ruben Vargas" x1
 ESP P 2.  "Landmark 2/2" x1
 ESP 13.  "Rodri" x1
 CRO 14.  "Ivan Peri\9532\237i\9472\231" x2
+ITA SP.  "Federico Chiesa" - Signed Gold Foil x1
 ITA 7.  "Emerson Palmieri" x1
 ITA 8.  "Giorgio Scalvini" x2
+ALB P 1.  "Landmark 1/2" x1
 ALB 3.  "Nedim Bajrami" x1
 ALB 12.  "Qazim La\9500\186i" x1
 ALB 17.  "Myrto Uzuni" x1
+SVN P 2.  "Landmark 2/2" x1
+DEN P 1.  "Landmark 1/2" x1
+DEN TOP 1.  "Andreas Christensen" x1
 DEN 5.  "Andreas Christensen" x1
 DEN 10.  "Mathias Jensen" x1
 DEN 14.  "Jesper Lindstr\9500\9557m" x1
+SRB 18.  "Filip Kosti\9472\231" x1
+ENG P 1.  "Landmark 1/2" x1
 ENG 13.  "Eberechi Eze" x1
 NED 4.  "Justin Bijlow" x1
+AUT 11.  "Nicolas Seiwald" x1
 FRA 19.  "Kingsley Coman" x1
 POL 6.  "Tomasz K\9472\214dziora" x1
 POL 7.  "Jakub Kiwior" x1
+WAL 4.  "Neco Williams" x1
+WAL 5.  "Joe Rodon" x1
 FIN 8.  "Glen Kamara" x1
 FIN 9.  "Robert Taylor" x1
+BEL 8.  "Arthur Theate" x1
+SVK P 1.  "Landmark 1/2" x1
+SVK 6.  "Denis Vavro" x1
 SVK 20.  "R\9500\9474bert  Mak" x2
 ROM 3.  "Ianis Hagi" x1
 ROM 7.  "Cristian Manea" x3
@@ -36,9 +50,13 @@ ISR 12.  "Ramzi Safouri" x1
 ISR 13.  "Gavriel Kanichowsky" x1
 BIH 2.  "Ibrahim \9532\225ehi\9472\231" x1
 BIH 3.  "Anel Ahmedhod\9532\9563i\9472\231" x1
+GF 1.  "Overview 1/2" x1
 TUR 1.  "Logo" x1
+TUR 3.  "Bar\9472\9618\9532\402 Alper Y\9472\9618lmaz" x1
+CZE 1.  "Logo" x1
 CZE 3.  "Mojm\9500\161r Chytil" x1
 CZE 4.  "Ji\9532\214\9500\161 Pavlenka" x1
+CZE 10.  "Tom\9500\237\9532\237 Hole\9532\237" x1
 CZE 13.  "Michal Sad\9500\161lek" x1
 GRE SP.  "Konstantinos Mavropanos" x3
 KAZ SP.  "Bakhtiyor Zaynutdinov" x3

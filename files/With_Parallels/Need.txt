@@ -1,4 +1,4 @@
-You need 848 stickers.
+You need 835 stickers.
 
 TOPPS 1.  "Topps Logo"
 UEFA 1.  "UEFA Euro 2024 Logo"
@@ -43,7 +43,6 @@ GER 11.  "Jamal Musiala"
 GER 12.  "Mario G\9500\9570tze"
 GER 13.  "Emre Can"
 GER 14.  "Timo Werner"
-GER 16.  "Thomas M\9500\9565ller"
 GER 18.  "Karim Adeyemi"
 GER 20.  "Bastian Schweinsteiger"
 GER 21.  "Lothar Matth\9500\241us"
@@ -77,7 +76,6 @@ SCO 15.  "John McGinn"
 SCO 16.  "Scott McTominay"
 SCO 17.  "Lewis Ferguson"
 SCO 20.  "Lyndon Dykes"
-SCO 21.  "Ryan Christie"
 HUN P 2.  "Landmark 2/2"
 HUN PTW.  "Milos Kerkez"
 HUN PTW.  "Milos Kerkez" - Red Dots Foil (Mega Eco Box Exclusive)
@@ -176,7 +174,6 @@ ESP 12.  "Pedri"
 ESP 14.  "Fabi\9500\237n Ruiz"
 ESP 18.  "Yeremy Pino"
 ESP 20.  "Ansu Fati"
-CRO P 1.  "Landmark 1/2"
 CRO P 2.  "Landmark 2/2"
 CRO PTW.  "Jo\9532\237ko  Gvardiol"
 CRO PTW.  "Jo\9532\237ko  Gvardiol" - Red Dots Foil (Mega Eco Box Exclusive)
@@ -223,7 +220,6 @@ ITA 3.  "Jorginho"
 ITA 3.  "Jorginho" - Red Dots Foil (Mega Eco Box Exclusive)
 ITA 3.  "Jorginho" - Green Foil (Super Rare)
 ITA 3.  "Jorginho" - Gold Foil (One of a kind)
-ITA 4.  "Gianluigi Donnarumma"
 ITA 6.  "Francesco Acerbi"
 ITA 9.  "Allesandro Bastoni"
 ITA 10.  "Federico Dimarco"
@@ -292,7 +288,6 @@ SVN 7.  "\9532\9564an Karni\9472\236nik"
 SVN 8.  "Petar Stojanovi\9472\231"
 SVN 10.  "Erik Jan\9532\9563a"
 SVN 11.  "Benjamin Verbi\9472\236"
-SVN 14.  "Jasmin Kurti\9472\231"
 SVN 15.  "Adam  Gnezda \9472\238erin"
 SVN 18.  "Jan Mlakar"
 SVN 19.  "\9532\9564an Vipotnik"
@@ -334,7 +329,6 @@ SRB SP.  "Du\9532\237an Vlahovi\9472\231" - Unsigned Gold Foil
 SRB SP.  "Du\9532\237an Vlahovi\9472\231" - Signed Gold Foil
 SRB TOP 1.  "Nikola Milenkovi\9472\231"
 SRB TOP 2.  "Aleksandar Mitrovi\9472\231"
-SRB 1.  "Logo"
 SRB 1.  "Logo" - Red Dots Foil (Mega Eco Box Exclusive)
 SRB 1.  "Logo" - Green Foil (Super Rare)
 SRB 1.  "Logo" - Gold Foil (One of a kind)
@@ -378,7 +372,6 @@ ENG 3.  "Cole Palmer" - Red Dots Foil (Mega Eco Box Exclusive)
 ENG 3.  "Cole Palmer" - Green Foil (Super Rare)
 ENG 3.  "Cole Palmer" - Gold Foil (One of a kind)
 ENG 4.  "Jordan Pickford"
-ENG 5.  "Luke Thomas"
 ENG 7.  "Kieran Trippier"
 ENG 8.  "Luke Shaw"
 ENG 10.  "Marc Gu\9500\8976hi"
@@ -482,7 +475,6 @@ FRA 15.  "Adrien Rabiot"
 FRA 18.  "Olivier Giroud"
 FRA 20.  "Antoine Griezmann"
 FRA 21.  "Marcus Thuram"
-POL SP.  "Robert Lewandowski"
 POL 1.  "Logo" - Red Dots Foil (Mega Eco Box Exclusive)
 POL 1.  "Logo" - Green Foil (Super Rare)
 POL 1.  "Logo" - Gold Foil (One of a kind)
@@ -494,7 +486,6 @@ POL 10.  "Piotr Zieli\9532\228ski"
 POL 11.  "Kacper Koz\9532\233owski"
 POL 14.  "Arkadiusz Milik"
 POL 15.  "Robert Lewandowski"
-EST SP.  "Markus Poom"
 EST 1.  "Logo"
 EST 1.  "Logo" - Red Dots Foil (Mega Eco Box Exclusive)
 EST 1.  "Logo" - Green Foil (Super Rare)
@@ -613,7 +604,6 @@ ROM 1.  "Logo"
 ROM 1.  "Logo" - Red Dots Foil (Mega Eco Box Exclusive)
 ROM 1.  "Logo" - Green Foil (Super Rare)
 ROM 1.  "Logo" - Gold Foil (One of a kind)
-ROM 2.  "Nicolae Stanciu"
 ROM 2.  "Nicolae Stanciu" - Red Dots Foil (Mega Eco Box Exclusive)
 ROM 2.  "Nicolae Stanciu" - Green Foil (Super Rare)
 ROM 2.  "Nicolae Stanciu" - Gold Foil (One of a kind)
@@ -639,8 +629,6 @@ ISR 1.  "Logo" - Green Foil (Super Rare)
 ISR 1.  "Logo" - Gold Foil (One of a kind)
 ISR 4.  "Raz Shlomo"
 ISR 5.  "Eli Dasa"
-ISR 6.  "Sean Goldberg"
-ISR 7.  "Roy Revivo"
 ISR 8.  "Doron Leidner"
 ISR 9.  "Oscar Gloukh"
 ISR 10.  "Dor Peretz"
@@ -839,7 +827,6 @@ LEG 3.  "Wayne Rooney" - Red Dots Foil (Mega Eco Box Exclusive)
 LEG 3.  "Wayne Rooney" - Green Foil (Super Rare)
 LEG 3.  "Wayne Rooney" - Gold Foil (One of a kind)
 LEG 6.  "Clarence Seedorf"
-LEG 7.  "Luis Figo"
 LEG 8.  "Zinedine Zidane"
 LEG 8.  "Zinedine Zidane" - Red Dots Foil (Mega Eco Box Exclusive)
 LEG 8.  "Zinedine Zidane" - Green Foil (Super Rare)
