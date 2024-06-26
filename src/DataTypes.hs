@@ -8,10 +8,7 @@ module DataTypes
   , Subchapter            (..) )
 where
 
-import qualified Data.Map   as Map 
-import qualified Data.Maybe as Maybe
-
-import qualified FilePaths  as FP
+import qualified Data.Map as Map
 
 
 data Chapter
@@ -139,10 +136,10 @@ instance Show Sticker where
     where
       mainString = mconcat [show chapter, " ", show subchapter, ".  ", show info]
 
-      wholeString = 
-        if   rarity == Just Common || Maybe.isNothing rarity 
-        then mainString
-        else mconcat [mainString, " - ", show (Maybe.fromJust rarity)]
+      wholeString = case rarity of 
+        Just Common -> mainString
+        Nothing     -> mainString
+        Just r      -> mconcat [mainString, " - ", show r] 
 
 
 data StickerCollection = StickerCollection
