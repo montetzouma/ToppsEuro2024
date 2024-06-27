@@ -43,6 +43,8 @@ data Chapter
   | AUT
   | FRA
   -- Group D (Playoffs)
+  | POL_EST   -- For two-fold sticker of star players
+  | WAL_FIN   -- For two-fold sticker of star players
   | POL
   | EST
   | WAL
@@ -53,6 +55,8 @@ data Chapter
   | SVK
   | ROM
   -- Group E (Playoffs)
+  | ISR_ICE   -- For two-fold sticker of star players
+  | BIH_UKR   -- For two-fold sticker of star players
   | ISR
   | ICE
   | BIH
@@ -63,6 +67,8 @@ data Chapter
   | POR
   | CZE
   -- Group F (Playoffs)
+  | GEO_LUX   -- For two-fold sticker of star players
+  | GRE_KAZ   -- For two-fold sticker of star players
   | GEO 
   | LUX
   | GRE
@@ -70,22 +76,25 @@ data Chapter
   -- Legends
   | LEG 
   deriving (Eq, Ord, Read, Show)
+-- The Read instances of two-fold won't be found in Cartophilic's catalogue but can be used when parsing your Got list.
 
 
 data Subchapter
-  = P      Int
-  | PTW
-  | SP      
-  | TOP    Int
-  | Number Int
+  = P          Int
+  | PTW    
+  | SP          
+  | TOP        Int
+  | Number     Int
+  | TwoNumbers Int Int 
   deriving (Eq, Ord)
 
 instance Show Subchapter where
-  show (P      n) = mconcat ["-P", show n]
-  show PTW        = "-PTW"
-  show SP         = "-SP"
-  show (TOP    n) = mconcat ["-TOP", show n]
-  show (Number n) = show n
+  show (P n)              = mconcat ["-P", show n]
+  show PTW                = "-PTW"
+  show SP                 = "-SP"
+  show (TOP n)            = mconcat ["-TOP", show n]
+  show (Number n)         = show n
+  show (TwoNumbers n1 b2) = mconcat [show n1, "-", show n2]
 
 data Rarity
   = Common              -- Not rare (no foil at all or silver foil)
