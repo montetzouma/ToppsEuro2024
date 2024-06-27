@@ -9,10 +9,10 @@ import DataTypes
 
 import qualified Data.Char                  as C
 import qualified Data.List                  as L
+import qualified Data.List.Extra            as LE
 import qualified Data.List.Split            as LS
 import qualified Data.Map                   as Map
 import qualified Data.Set                   as S
-import qualified Data.Text                  as T
 import qualified Data.Void                  as V
 import qualified FilePaths                  as FP
 import qualified Text.Megaparsec            as M
@@ -159,12 +159,11 @@ catalogueUsefulLineParser
   =   M.try catalogueTwoFoldStickerParser
   <|> M.try catalogueOneFoldStickerParser
 
--- TODO: If possible remove pack and unpack after switching to strings
 cleanupInfo :: String -> String
 cleanupInfo info = info'
   where
     infos = LS.splitOneOf "(-" info
-    info' = (T.unpack . T.strip . T.pack) (head infos)
+    info' = LE.trim (head infos)
 
 catalogueUselessLineParser :: Parser [Sticker]
 catalogueUselessLineParser = do

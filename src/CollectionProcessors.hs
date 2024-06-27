@@ -8,10 +8,11 @@ where
 
 import DataTypes
 
-import qualified Data.List as L
-import qualified Data.Map  as Map
+import qualified Data.List       as L
+import qualified Data.List.Extra as LE
+import qualified Data.Map        as Map
 
-import qualified FilePaths as FP
+import qualified FilePaths       as FP
 
 
 markGot :: [Sticker] -> StickerCollection -> StickerCollection
@@ -76,7 +77,7 @@ writeDuplicates DuplicatesInformation{..} = do
     writeDuplicates' :: (Map.Map Sticker Int, Int) -> FilePath -> IO ()
     writeDuplicates' (duplicates, nDuplicates) filePath = do 
       let header = mconcat ["You have ", show nDuplicates, " duplicate stickers.\n\n"]
-          body   = Map.foldrWithKey appendDuplicate "" duplicates
+          body   = LE.dropSuffix ", " $ Map.foldrWithKey appendDuplicate "" duplicates
 
       writeFile filePath (header <> body)
 
