@@ -94,7 +94,7 @@ instance Show Subchapter where
   show SP                 = "-SP"
   show (TOP n)            = mconcat ["-TOP", show n]
   show (Number n)         = show n
-  show (TwoNumbers n1 b2) = mconcat [show n1, "-", show n2]
+  show (TwoNumbers n1 n2) = mconcat [show n1, "-", show n2]
 
 data Rarity
   = Common              -- Not rare (no foil at all or silver foil)
