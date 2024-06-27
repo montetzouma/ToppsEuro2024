@@ -40,6 +40,7 @@ subchapterParser
   <|> M.try playerToWatchParser
   <|> starPlayerParser
   <|> topPlayerParser 
+  <|> M.try twoNumbersParser
   <|> numberParser
 
 landmarkParser :: Parser Subchapter
@@ -67,13 +68,17 @@ topPlayerParser = do
 numberParser :: Parser Subchapter
 numberParser = Number <$> ML.decimal
 
+-- This syntax will never be found in Cartophilic's catalogue but will be used in the Got list.
+twoNumbersParser :: Parser Subchapter
+twoNumbersParser = do
+  n1 <- ML.decimal
+  MC.char '-'
+  n2 <- ML.decimal
+  return (TwoNumbers n1 n2) 
+
 
 chapterSubchapterInfoParser :: Parser (Chapter, Subchapter, String)
 chapterSubchapterInfoParser = do
-  -- Covers the case of a two-part mini-sticker
-  optional (MC.char '+')
-  MC.space
-  
   chapter <- chapterParser 
   MC.space
   
@@ -85,8 +90,8 @@ chapterSubchapterInfoParser = do
   
   return (chapter, subchapter, info) 
 
-catalogueUsefulLineParser :: Parser [Sticker]
-catalogueUsefulLineParser = do 
+catalogueOneFoldStickerParser :: Parser [Sticker]
+catalogueOneFoldStickerParser = do  
   (chapter, subchapter, info) <- chapterSubchapterInfoParser
 
   let rarities  = allRarities info
@@ -107,6 +112,40 @@ catalogueUsefulLineParser = do
 
     allNonStarPlayerRarities :: [Rarity]
     allNonStarPlayerRarities = [Common, MegaEcoBoxExclusive .. OneOfAKind]
+
+catalogueTwoFoldStickerParser :: Parser [Sticker]
+catalogueTwoFoldStickerParser = do 
+  (chapter1, subchapter1, info1) <- chapterSubchapterInfoParser
+
+  MC.char '+'
+  MC.space
+
+  (chapter2, subchapter2, info2) <- chapterSubchapterInfoParser
+
+  -- Two-fold stickers never have a foil
+  let joinedChapter    = joinChapter chapter1 chapter2
+      joinedSubchapter = joinSubchapter subchapter1 subchapter2
+      joinedInfo       = mconcat [cleanupInfo info2, " & ", cleanupInfo info2]
+      sticker          = Sticker joinedChapter joinedSubchapter joinedInfo (Just Common)
+
+  return [sticker]
+  where
+    joinChapter :: Chapter -> Chapter -> Chapter
+    joinChapter c1 c2 = 
+      if   c1==c2
+      then c1 
+      else read $ mconcat [show c1, "_", show c2]
+
+    joinSubchapter :: Subchapter -> Subchapter -> Subchapter
+    joinSubchapter SP          SP          = SP
+    joinSubchapter (Number n1) (Number n2) = TwoNumbers n1 n2
+    joinSubchapter _            _          = error "You are trying to parse an uknown two-fold sticker! (catalogueTwoFoldStickerParser)"
+
+
+catalogueUsefulLineParser :: Parser [Sticker]
+catalogueUsefulLineParser
+  =   M.try catalogueTwoFoldStickerParser
+  <|> M.try catalogueOneFoldStickerParser
 
 -- TODO: If possible remove pack and unpack after switching to strings
 cleanupInfo :: String -> String
