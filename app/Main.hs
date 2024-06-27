@@ -4,7 +4,6 @@ import qualified CollectionProcessors as CP
 import qualified Parsers              as P
 
 
--- TODO: Print umlauts properly.
 -- TODO: Try reducing code duplication (With/without parallels)
 -- TODO: Shouldn't need to have a newline at the end of the Got file.
 main :: IO ()

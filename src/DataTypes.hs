@@ -75,8 +75,60 @@ data Chapter
   | KAZ
   -- Legends
   | LEG 
-  deriving (Eq, Ord, Read, Show)
--- The Read instances of two-fold won't be found in Cartophilic's catalogue but can be used when parsing your Got list.
+  deriving (Eq, Ord, Read)
+-- The Read instances of two-fold chapters won't be found in Cartophilic's catalogue but can be used when parsing your Got list.
+
+instance Show Chapter where
+  show TOPPS   = "TOPPS"
+  show UEFA    = "UEFA" 
+  show EURO    = "EURO"
+  show GA      = "GA"
+  show GER     = "GER"
+  show SCO     = "SCO"
+  show HUN     = "HUN"
+  show SUI     = "SUI"
+  show GB      = "GB"
+  show ESP     = "ESP"
+  show CRO     = "CRO"
+  show ITA     = "ITA"
+  show ALB     = "ALB" 
+  show GC      = "GC"
+  show SVN     = "SVN"
+  show DEN     = "DEN"
+  show SRB     = "SRB"
+  show ENG     = "ENG"
+  show MM      = "MM"
+  show GD      = "GD"
+  show NED     = "NED"
+  show AUT     = "AUT"
+  show FRA     = "FRA"
+  show POL_EST = "POL-EST"   
+  show WAL_FIN = "WAL-FIN" 
+  show POL     = "POL"
+  show EST     = "EST"      
+  show WAL     = "WAL"
+  show FIN     = "FIN"
+  show GE      = "GE"
+  show BEL     = "BEL"
+  show SVK     = "SVK"
+  show ROM     = "ROM"
+  show ISR_ICE = "ISR-ICE"  
+  show BIH_UKR = "BIH-UKR" 
+  show ISR     = "ISR"
+  show ICE     = "ICE"
+  show BIH     = "BIH"
+  show UKR     = "UKR"
+  show GF      = "GF"
+  show TUR     = "TUR"
+  show POR     = "POR"
+  show CZE     = "CZE"
+  show GEO_LUX = "GEO-LUX"  
+  show GRE_KAZ = "GRE-KAZ"  
+  show GEO     = "GEO"
+  show LUX     = "LUX"
+  show GRE     = "GRE"
+  show KAZ     = "KAZ"
+  show LEG     = "LEG" 
 
 
 data Subchapter
@@ -95,6 +147,7 @@ instance Show Subchapter where
   show (TOP n)            = mconcat ["-TOP", show n]
   show (Number n)         = show n
   show (TwoNumbers n1 n2) = mconcat [show n1, "-", show n2]
+
 
 data Rarity
   = Common              -- Not rare (no foil at all or silver foil)

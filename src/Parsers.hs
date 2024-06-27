@@ -26,12 +26,25 @@ type Parser = M.Parsec V.Void String
 
 
 chapterParser :: Parser Chapter
-chapterParser = do
+chapterParser 
+  =   M.try twoFoldChapterParser
+  <|> oneFoldChapterParser
+
+oneFoldChapterParser :: Parser Chapter
+oneFoldChapterParser = do
   maybeChapter <- R.readMaybe . map C.toUpper <$> M.takeWhileP Nothing C.isAlpha
 
   case maybeChapter of
     Nothing      -> M.failure Nothing S.empty
     Just chapter -> return chapter
+
+twoFoldChapterParser :: Parser Chapter
+twoFoldChapterParser = do
+  ch1 <- oneFoldChapterParser
+  MC.char '_'
+  ch2 <- oneFoldChapterParser
+
+  return $ joinChapters ch1 ch2
 
 
 subchapterParser :: Parser Subchapter
@@ -123,24 +136,23 @@ catalogueTwoFoldStickerParser = do
   (chapter2, subchapter2, info2) <- chapterSubchapterInfoParser
 
   -- Two-fold stickers never have a foil
-  let joinedChapter    = joinChapter chapter1 chapter2
+  let joinedChapter    = joinChapters chapter1 chapter2
       joinedSubchapter = joinSubchapter subchapter1 subchapter2
       joinedInfo       = mconcat [cleanupInfo info1, " & ", cleanupInfo info2]
       sticker          = Sticker joinedChapter joinedSubchapter joinedInfo (Just Common)
 
   return [sticker]
   where
-    joinChapter :: Chapter -> Chapter -> Chapter
-    joinChapter c1 c2 = 
-      if   c1==c2
-      then c1 
-      else read $ mconcat [show c1, "_", show c2]
-
     joinSubchapter :: Subchapter -> Subchapter -> Subchapter
     joinSubchapter SP          SP          = SP
     joinSubchapter (Number n1) (Number n2) = TwoNumbers n1 n2
     joinSubchapter _            _          = error "You are trying to parse an uknown two-fold sticker! (catalogueTwoFoldStickerParser)"
 
+joinChapters :: Chapter -> Chapter -> Chapter
+joinChapters c1 c2 = 
+  if   c1==c2
+  then c1 
+  else read $ mconcat [show c1, "_", show c2]
 
 catalogueUsefulLineParser :: Parser [Sticker]
 catalogueUsefulLineParser
