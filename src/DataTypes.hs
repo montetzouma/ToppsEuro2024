@@ -130,6 +130,17 @@ instance Show Chapter where
   show KAZ     = "KAZ"
   show LEG     = "LEG" 
 
+instance Semigroup Chapter where
+  (<>) POL EST = POL_EST
+  (<>) WAL FIN = WAL_FIN
+  (<>) ISR ICE = ISR_ICE 
+  (<>) BIH UKR = BIH_UKR
+  (<>) GEO LUX = GEO_LUX
+  (<>) GRE KAZ = GRE_KAZ
+  (<>) ch1 ch2  
+    | ch1 == ch2 = ch1
+    | otherwise  = error "You are trying to create a two-fold sticker with a chapter which doesn't exist!"
+
 
 data Subchapter
   = P          Int
@@ -147,6 +158,11 @@ instance Show Subchapter where
   show (TOP n)            = mconcat ["-TOP", show n]
   show (Number n)         = show n
   show (TwoNumbers n1 n2) = mconcat [show n1, "-", show n2]
+
+instance Semigroup Subchapter where
+  (<>) SP          SP          = SP
+  (<>) (Number n1) (Number n2) = TwoNumbers n1 n2
+  (<>) _           _           = error "You are trying to create a two-fold sticker with a subchapter which doesn't exist!"
 
 
 data Rarity
