@@ -1,18 +1,12 @@
 module CollectionProcessors 
   ( findDuplicates
   , findNeeds
-  , markGot
-  , writeDuplicates
-  , writeNeeds )
+  , markGot )
 where
 
 import DataTypes
 
-import qualified Data.List       as L
-import qualified Data.List.Extra as LE
-import qualified Data.Map        as Map
-
-import qualified FilePaths       as FP
+import qualified Data.Map as Map
 
 
 markGot :: [Sticker] -> StickerCollection -> StickerCollection
@@ -26,61 +20,26 @@ markGot gotStickers StickerCollection{..} = StickerCollection
     markGot' = foldr (Map.adjust (+1))
 
 
-findNeeds :: StickerCollection -> NeedInformation
-findNeeds StickerCollection{..} = NeedInformation
-  { needWithParallels     = needWithParallels     
-  , needWithoutParallels  = needWithoutParallels  
-  , nNeedWithParallels    = nNeedWithParallels    
-  , nNeedWithoutParallels = nNeedWithoutParallels }
+findNeeds :: StickerCollection -> Bool -> NeedInformation
+findNeeds sc careAboutParallels = NeedInformation
+  { need  = need     
+  , nNeed = nNeed }
   where
-    (needWithParallels   , nNeedWithParallels   ) = findNeeds' collectionWithParallels
-    (needWithoutParallels, nNeedWithoutParallels) = findNeeds' collectionWithoutParallels
+    collection = whichCollection sc careAboutParallels
+    need       = Map.keys $ Map.filter (==0) collection
+    nNeed      = length need
 
-    findNeeds' :: Map.Map Sticker Int -> ([Sticker], Int)
-    findNeeds' collection = 
-      let need = Map.keys $ Map.filter (==0) collection
-      in  (need, length need)
 
-writeNeeds :: NeedInformation -> IO ()
-writeNeeds NeedInformation{..} = do 
-  writeNeeds' (needWithParallels,    nNeedWithParallels   ) FP.needPathWithParallels
-  writeNeeds' (needWithoutParallels, nNeedWithoutParallels) FP.needPathWithoutParallels
+findDuplicates :: StickerCollection -> Bool -> DuplicatesInformation
+findDuplicates sc careAboutParallels = DuplicatesInformation
+  { duplicates  = duplicates     
+  , nDuplicates = nDuplicates }
   where
-    writeNeeds' :: ([Sticker], Int) -> FilePath -> IO ()
-    writeNeeds' (need, nNeed) filePath = do
-      let header = mconcat ["You need ", show nNeed, " stickers.\n\n"]
-          body   = L.intercalate ", " (map show need)
-
-      writeFile filePath (header <> body)
+    collection  = whichCollection sc careAboutParallels
+    duplicates  = subtract 1 <$> Map.filter (>1) collection
+    nDuplicates = sum duplicates
 
 
-findDuplicates :: StickerCollection -> DuplicatesInformation
-findDuplicates StickerCollection{..} = DuplicatesInformation
-  { duplicatesWithParallels     = duplicatesWithParallels     
-  , duplicatesWithoutParallels  = duplicatesWithoutParallels  
-  , nDuplicatesWithParallels    = nDuplicatesWithParallels    
-  , nDuplicatesWithoutParallels = nDuplicatesWithoutParallels }
-  where
-    (duplicatesWithParallels   , nDuplicatesWithParallels    ) = findDuplicates' collectionWithParallels
-    (duplicatesWithoutParallels, nDuplicatesWithoutParallels ) = findDuplicates' collectionWithoutParallels
-
-    findDuplicates' :: Map.Map Sticker Int -> (Map.Map Sticker Int, Int)
-    findDuplicates' collection = 
-      let duplicates = subtract 1 <$> Map.filter (>1) collection
-      in  (duplicates, sum duplicates)
-
-writeDuplicates :: DuplicatesInformation -> IO ()
-writeDuplicates DuplicatesInformation{..} = do 
-  writeDuplicates' (duplicatesWithParallels,    nDuplicatesWithParallels   ) FP.duplicatesPathWithParallels
-  writeDuplicates' (duplicatesWithoutParallels, nDuplicatesWithoutParallels) FP.duplicatesPathWithoutParallels
-  where
-    writeDuplicates' :: (Map.Map Sticker Int, Int) -> FilePath -> IO ()
-    writeDuplicates' (duplicates, nDuplicates) filePath = do 
-      let header = mconcat ["You have ", show nDuplicates, " duplicate stickers.\n\n"]
-          body   = LE.dropSuffix ", " $ Map.foldrWithKey appendDuplicate "" duplicates
-
-      writeFile filePath (header <> body)
-
-    appendDuplicate :: Sticker -> Int -> String -> String
-    appendDuplicate sticker       1 currentBody = mconcat [show sticker, ", ", currentBody]
-    appendDuplicate sticker nCopies currentBody = mconcat [show sticker, "(", show nCopies, "), ", currentBody]
+whichCollection :: StickerCollection -> Bool -> Map.Map Sticker Int
+whichCollection sc True  = collectionWithParallels    sc
+whichCollection sc False = collectionWithoutParallels sc

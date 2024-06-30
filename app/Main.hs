@@ -1,10 +1,12 @@
 module Main (main) where
 
+import DataTypes
+
 import qualified CollectionProcessors as CP
+import qualified FilePaths            as FP
 import qualified Parsers              as P
 
 
--- TODO: Try reducing code duplication (With/without parallels)
 -- TODO: Shouldn't need to have a newline at the end of the Got file.
 main :: IO ()
 main = do
@@ -12,8 +14,16 @@ main = do
   got       <- P.parseGot
 
   let updatedCatalogue = CP.markGot got catalogue
-      needs            = CP.findNeeds      updatedCatalogue
-      duplicates       = CP.findDuplicates updatedCatalogue
-      
-  CP.writeNeeds      needs
-  CP.writeDuplicates duplicates
+
+  mapM_ (go updatedCatalogue) [True, False]
+
+
+go :: StickerCollection -> Bool -> IO ()
+go catalogue careAboutParallels = do 
+  let needs              = CP.findNeeds      catalogue careAboutParallels
+      duplicates         = CP.findDuplicates catalogue careAboutParallels
+      filePathNeed       = if careAboutParallels then FP.needPathWithParallels       else FP.needPathWithoutParallels 
+      filePathDuplicates = if careAboutParallels then FP.duplicatesPathWithParallels else FP.duplicatesPathWithoutParallels
+
+  writeFile filePathNeed       (show needs)
+  writeFile filePathDuplicates (show duplicates)
