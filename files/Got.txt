@@ -337,5 +337,6 @@ sui14
 sui17
 esp top1
 alb top1
-esp7esp20
+esp7
+esp20
 cro8
