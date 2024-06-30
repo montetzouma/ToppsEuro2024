@@ -15,11 +15,11 @@ main = do
 
   let updatedCatalogue = CP.markGot got catalogue
 
-  mapM_ (go updatedCatalogue) [True, False]
+  mapM_ (findAndWrite updatedCatalogue) [True, False]
 
 
-go :: StickerCollection -> Bool -> IO ()
-go catalogue careAboutParallels = do 
+findAndWrite :: StickerCollection -> Bool -> IO ()
+findAndWrite catalogue careAboutParallels = do 
   let needs              = CP.findNeeds      catalogue careAboutParallels
       duplicates         = CP.findDuplicates catalogue careAboutParallels
       filePathNeed       = if careAboutParallels then FP.needPathWithParallels       else FP.needPathWithoutParallels 
