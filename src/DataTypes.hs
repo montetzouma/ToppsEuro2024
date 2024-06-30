@@ -8,7 +8,9 @@ module DataTypes
   , Subchapter            (..) )
 where
 
-import qualified Data.Map as Map
+import qualified Data.List       as L
+import qualified Data.List.Extra as LE
+import qualified Data.Map        as Map
 
 
 data Chapter
@@ -224,14 +226,26 @@ data StickerCollection = StickerCollection
 
 
 data NeedInformation = NeedInformation
-  { needWithParallels     :: [Sticker]
-  , needWithoutParallels  :: [Sticker]
-  , nNeedWithParallels    :: Int
-  , nNeedWithoutParallels :: Int }
+  { need  :: [Sticker]
+  , nNeed :: Int }
+
+instance Show NeedInformation where
+  show NeedInformation{..} = header <> body
+    where
+      header = mconcat ["You need ", show nNeed, " stickers.\n\n"]
+      body   = L.intercalate ", " (map show need)
 
 
 data DuplicatesInformation = DuplicatesInformation
-  { duplicatesWithParallels     :: Map.Map Sticker Int
-  , duplicatesWithoutParallels  :: Map.Map Sticker Int
-  , nDuplicatesWithParallels    :: Int
-  , nDuplicatesWithoutParallels :: Int }
+  { duplicates  :: Map.Map Sticker Int
+  , nDuplicates :: Int }
+
+instance Show DuplicatesInformation where
+  show  DuplicatesInformation{..} = header <> body
+    where
+      header = mconcat ["You have ", show nDuplicates, " duplicate stickers.\n\n"]
+      body   = LE.dropSuffix ", " $ Map.foldrWithKey appendDuplicate "" duplicates
+
+      appendDuplicate :: Sticker -> Int -> String -> String
+      appendDuplicate sticker       1 currentBody = mconcat [show sticker, ", ", currentBody]
+      appendDuplicate sticker nCopies currentBody = mconcat [show sticker, "(", show nCopies, "), ", currentBody]

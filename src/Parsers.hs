@@ -136,7 +136,7 @@ catalogueTwoFoldStickerParser = do
   (chapter2, subchapter2, info2) <- chapterSubchapterInfoParser
 
   -- Two-fold stickers never have a foil
-  let joinedChapter    = chapter1 <> chapter2
+  let joinedChapter    = chapter1    <> chapter2
       joinedSubchapter = subchapter1 <> subchapter2
       joinedInfo       = mconcat [cleanupInfo info1, " & ", cleanupInfo info2]
       sticker          = Sticker joinedChapter joinedSubchapter joinedInfo (Just Common)
