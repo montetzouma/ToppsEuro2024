@@ -13,15 +13,15 @@ main = do
   catalogue <- P.parseCatalogue
   got       <- P.parseGot
 
-  let updatedCatalogue = CP.markGot got catalogue
-
-  mapM_ (findAndWrite updatedCatalogue) [True, False]
+  mapM_ (findAndWrite catalogue got) [True, False]
 
 
-findAndWrite :: StickerCollection -> Bool -> IO ()
-findAndWrite catalogue careAboutParallels = do 
-  let needs              = CP.findNeeds      catalogue careAboutParallels
-      duplicates         = CP.findDuplicates catalogue careAboutParallels
+findAndWrite :: [Sticker] -> [Sticker] -> Bool -> IO ()
+findAndWrite catalogue got careAboutParallels = do 
+  let collection         = CP.createCollection catalogue careAboutParallels
+      updatedCollection  = CP.markGot collection got careAboutParallels
+      needs              = CP.findNeeds      updatedCollection
+      duplicates         = CP.findDuplicates updatedCollection
       filePathNeed       = if careAboutParallels then FP.needPathWithParallels       else FP.needPathWithoutParallels 
       filePathDuplicates = if careAboutParallels then FP.duplicatesPathWithParallels else FP.duplicatesPathWithoutParallels
 

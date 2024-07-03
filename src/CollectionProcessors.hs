@@ -1,5 +1,6 @@
 module CollectionProcessors 
-  ( findDuplicates
+  ( createCollection
+  , findDuplicates
   , findNeeds
   , markGot )
 where
@@ -9,37 +10,37 @@ import DataTypes
 import qualified Data.Map as Map
 
 
-markGot :: [Sticker] -> StickerCollection -> StickerCollection
-markGot gotStickers StickerCollection{..} = StickerCollection
-  { collectionWithParallels    = markGot' collectionWithParallels    gotStickers
-  , collectionWithoutParallels = markGot' collectionWithoutParallels gotStickersWithoutParallels }
+createCollection :: [Sticker] -> Bool -> StickerCollection
+createCollection stickers careAboutParallels = Map.fromList (map (,0) stickers')
   where
-    gotStickersWithoutParallels = map (\s->s{rarity=Nothing}) gotStickers
+    stickers' = 
+      if   careAboutParallels
+      then stickers 
+      else map (\s->s{rarity=Nothing}) stickers
 
-    markGot' :: Map.Map Sticker Int -> [Sticker] -> Map.Map Sticker Int
-    markGot' = foldr (Map.adjust (+1))
+
+markGot :: StickerCollection -> [Sticker] -> Bool -> StickerCollection
+markGot collection got careAboutParallels = foldr (Map.adjust (+1)) collection got'
+  where
+    got' = 
+      if   careAboutParallels
+      then got 
+      else map (\g->g{rarity=Nothing}) got
 
 
-findNeeds :: StickerCollection -> Bool -> NeedInformation
-findNeeds sc careAboutParallels = NeedInformation
+findNeeds :: StickerCollection -> NeedInformation
+findNeeds collection = NeedInformation
   { need  = need     
   , nNeed = nNeed }
   where
-    collection = whichCollection sc careAboutParallels
-    need       = Map.keys $ Map.filter (==0) collection
-    nNeed      = length need
+    need  = Map.keys $ Map.filter (==0) collection
+    nNeed = length need
 
 
-findDuplicates :: StickerCollection -> Bool -> DuplicatesInformation
-findDuplicates sc careAboutParallels = DuplicatesInformation
+findDuplicates :: StickerCollection -> DuplicatesInformation
+findDuplicates collection = DuplicatesInformation
   { duplicates  = duplicates     
   , nDuplicates = nDuplicates }
   where
-    collection  = whichCollection sc careAboutParallels
     duplicates  = subtract 1 <$> Map.filter (>1) collection
     nDuplicates = sum duplicates
-
-
-whichCollection :: StickerCollection -> Bool -> Map.Map Sticker Int
-whichCollection sc True  = collectionWithParallels    sc
-whichCollection sc False = collectionWithoutParallels sc

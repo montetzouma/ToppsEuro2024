@@ -11,7 +11,6 @@ import qualified Data.Char                  as C
 import qualified Data.List                  as L
 import qualified Data.List.Extra            as LE
 import qualified Data.List.Split            as LS
-import qualified Data.Map                   as Map
 import qualified Data.Set                   as S
 import qualified Data.Void                  as V
 import qualified FilePaths                  as FP
@@ -167,19 +166,12 @@ catalogueLineParser = M.try catalogueUsefulLineParser <|> catalogueUselessLinePa
 catalogueParser :: Parser [Sticker]
 catalogueParser = concat . filter (not . null) <$> M.some catalogueLineParser
 
-parseCatalogue :: IO StickerCollection
+parseCatalogue :: IO [Sticker]
 parseCatalogue = do
   catalogue <- readFile FP.cataloguePath
   case M.runParser catalogueParser FP.cataloguePath catalogue of
     Left  e        -> error  (show e)
-    Right stickers -> return (createCollection stickers)
-  where
-    createCollection :: [Sticker] -> StickerCollection
-    createCollection stickers
-      = let stickersWithoutParallels = map (\s->s{rarity=Nothing}) stickers
-        in  StickerCollection
-              { collectionWithParallels    = Map.fromList (map (,0) stickers)
-              , collectionWithoutParallels = Map.fromList (map (,0) stickersWithoutParallels) }
+    Right stickers -> return stickers
 
 
 gotLineParser :: Parser Sticker

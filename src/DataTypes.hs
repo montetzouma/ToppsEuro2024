@@ -4,7 +4,7 @@ module DataTypes
   , NeedInformation       (..)
   , Rarity                (..)
   , Sticker               (..)
-  , StickerCollection     (..)
+  , StickerCollection     
   , Subchapter            (..) )
 where
 
@@ -220,9 +220,7 @@ instance Show Sticker where
       wholeString = mconcat [mainString, rarityString]
 
 
-data StickerCollection = StickerCollection
-  { collectionWithParallels    :: Map.Map Sticker Int
-  , collectionWithoutParallels :: Map.Map Sticker Int }
+type StickerCollection = Map.Map Sticker Int
 
 
 data NeedInformation = NeedInformation
