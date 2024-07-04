@@ -139,9 +139,30 @@ instance Semigroup Chapter where
   (<>) BIH UKR = BIH_UKR
   (<>) GEO LUX = GEO_LUX
   (<>) GRE KAZ = GRE_KAZ
-  (<>) ch1 ch2  
-    | ch1 == ch2 = ch1
-    | otherwise  = error "You are trying to create a two-fold sticker with a chapter which doesn't exist!"
+
+  -- So you don't need to worry which country you should type first in your got list.
+  (<>) EST POL = POL_EST
+  (<>) FIN WAL = WAL_FIN
+  (<>) ICE ISR = ISR_ICE 
+  (<>) UKR BIH = BIH_UKR
+  (<>) LUX GEO = GEO_LUX
+  (<>) KAZ GRE = GRE_KAZ
+
+  (<>) MM  MM  = MM
+  (<>) POL POL = POL
+  (<>) WAL WAL = WAL
+  (<>) ISR ISR = ISR
+  (<>) BIH BIH = BIH
+  (<>) GEO GEO = GEO
+  (<>) GRE GRE = GRE
+  (<>) EST EST = EST
+  (<>) FIN FIN = FIN
+  (<>) ICE ICE = ICE
+  (<>) UKR UKR = UKR
+  (<>) LUX LUX = LUX
+  (<>) KAZ KAZ = KAZ
+
+  (<>) _   _   = error "You are trying to create a two-fold sticker with a chapter which doesn't exist!"
 
 
 data Subchapter
