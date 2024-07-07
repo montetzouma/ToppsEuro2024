@@ -13,7 +13,11 @@ main = do
   catalogue <- P.parseCatalogue
   got       <- P.parseGot
 
-  mapM_ (findAndWrite catalogue got) [True, False]
+  -- Empty file contents
+  writeFile FP.needPath       ""
+  writeFile FP.duplicatesPath ""
+ 
+  mapM_ (findAndWrite catalogue got) [False, True]
 
 
 findAndWrite :: [Sticker] -> [Sticker] -> Bool -> IO ()
@@ -22,8 +26,7 @@ findAndWrite catalogue got careAboutParallels = do
       updatedCollection  = CP.markGot collection got careAboutParallels
       needs              = CP.findNeeds      updatedCollection
       duplicates         = CP.findDuplicates updatedCollection
-      filePathNeed       = if careAboutParallels then FP.needPathWithParallels       else FP.needPathWithoutParallels 
-      filePathDuplicates = if careAboutParallels then FP.duplicatesPathWithParallels else FP.duplicatesPathWithoutParallels
+      header             = if careAboutParallels then "INCLUDING PARALLEL VERSIONS\n" else "EXCLUDING PARALLEL VERSIONS\n" 
 
-  writeFile filePathNeed       (show needs)
-  writeFile filePathDuplicates (show duplicates)
+  appendFile FP.needPath       $ mconcat [header, show needs,      "\n\n\n"]
+  appendFile FP.duplicatesPath $ mconcat [header, show duplicates, "\n\n\n"]

@@ -1,17 +1,13 @@
 module FilePaths 
   ( cataloguePath                 
   , gotPath                       
-  , needPathWithParallels         
-  , needPathWithoutParallels      
-  , duplicatesPathWithParallels   
-  , duplicatesPathWithoutParallels )
+  , needPath         
+  , duplicatesPath )
 where
 
 
-cataloguePath, gotPath, needPathWithParallels, duplicatesPathWithParallels, needPathWithoutParallels, duplicatesPathWithoutParallels :: FilePath
-cataloguePath                  = "files/Cartophilic_Catalogue.txt"
-gotPath                        = "files/Got.txt"
-needPathWithParallels          = "files/With_Parallels/Need.txt"
-needPathWithoutParallels       = "files/Without_Parallels/Need.txt"
-duplicatesPathWithParallels    = "files/With_Parallels/Duplicates.txt"
-duplicatesPathWithoutParallels = "files/Without_Parallels/Duplicates.txt"
+cataloguePath, gotPath, needPath, duplicatesPath :: FilePath
+cataloguePath  = "files/Cartophilic_Catalogue.txt"
+gotPath        = "files/Got.txt"
+needPath       = "files/Need.txt"
+duplicatesPath = "files/Duplicates.txt"
