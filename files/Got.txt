@@ -9,7 +9,7 @@ ESP 16
 GER 21
 TUR 12
 ICE 12-13
-SNV 8
+SVN 8
 SVN SP Signed
 fin 8-9
 HUN 8
