@@ -1,3 +1,10 @@
+ESP4
+SVN19
+FRA P2
+FRA8
+BEL P1
+BEL21
+TUR13
 SCO4
 ESP P1
 ENG7
@@ -17,7 +24,6 @@ SVK3
 AUT14
 EURO10
 GF1
-UKR8-9
 ENG 5
 ESP 1
 POL 6-7
@@ -43,8 +49,6 @@ SUI 10
 SVN PTW
 AUT 6
 BEL 4
-GER 15
-ITA 5
 GER 3
 NED SP Unsigned
 EURO2
@@ -127,7 +131,6 @@ KAZ_GRE SP
 CRO 7
 FRA 2
 fra21
-leg 4
 EURO 9
 fin12-13
 FRA3
@@ -435,7 +438,6 @@ ned P1
 srb 18
 GF 2
 SUI 18
-SVN TOP 2
 SVK P1
 CZE 17
 HUN TOP 1
@@ -504,7 +506,6 @@ DEN TOP 1
 ENG PTW
 SVN 1
 SVN 2
-SVN 9
 SVN 12
 SVN 16
 SVN 20
@@ -627,7 +628,6 @@ UEFA 3
 euro11
 sco top2
 hun top2
-sui14
 sui17
 esp top1
 alb top1
