@@ -1,3 +1,7 @@
+fra top1
+svn11
+SCO6
+UKR 14-15
 HUN18
 SUI11
 SUI15
@@ -30,11 +34,9 @@ ita PTW
 cze SP Unsigned
 svn6
 EURO 4
-den 19
 SUI 12
 NED 1
 AUT 15
-BEL P1
 TUR 9
 GER 12
 CRO TOP1
@@ -106,7 +108,6 @@ GF1
 ENG 5
 ESP 1
 POL 6-7
-BEL 12
 DEN 14
 HUN 10
 WAL 4-5
@@ -124,7 +125,6 @@ ROM TOP1
 DEN 7
 SUI 10
 SVN PTW
-AUT 6
 BEL 4
 NED SP Unsigned
 EURO2
