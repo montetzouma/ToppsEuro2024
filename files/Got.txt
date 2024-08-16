@@ -1,4 +1,3 @@
-SRB 15
 GER8
 GER11
 GC2
