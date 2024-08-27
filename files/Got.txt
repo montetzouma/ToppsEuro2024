@@ -1,7 +1,8 @@
 AUT SP
-SUI SP
-BEL SP
+SUI SP Unsigned
+BEL SP Unsigned
 POR 20
+SRB 15
 SRB 5
 LUX 2-3
 BIH_UKR SP
