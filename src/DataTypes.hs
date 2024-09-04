@@ -206,7 +206,7 @@ instance Show Rarity where
   show MegaEcoBoxExclusive = "-eu"
   show Rare                = "-p" 
   show VeryRare            = "-tp"
-  show SuperRare           = "-g"
+  show SuperRare           = "-gr"
   show MegaRare            = "-bu"
   show UltraRare           = "-b"
   show OneOfAKind          = "-g"
