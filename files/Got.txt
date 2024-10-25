@@ -1,6 +1,6 @@
 ROM SP Unsigned
 ESP SP Unsigned
-AUT SP
+AUT SP Signed
 SUI SP Unsigned
 BEL SP Unsigned
 POR 20
@@ -18,7 +18,6 @@ FRA 8
 TUR 21
 TUR 7
 POR 18
-POR PTW PURPLE
 SVK 13
 SVK 12
 SVK 5
@@ -27,7 +26,6 @@ SRB 1
 SRB 19
 ENG 16
 DEN TOP1
-DEN 1
 ENG P1
 SVN P1
 CRO 19
@@ -46,7 +44,6 @@ HUN PTW topps
 SUI 3
 ROM 20
 AUT 19
-ALB SP Signed
 SCO 20
 ENG 13
 ROM2
