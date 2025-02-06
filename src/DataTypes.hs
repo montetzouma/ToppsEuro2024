@@ -251,7 +251,7 @@ data NeedInformation = NeedInformation
 instance Show NeedInformation where
   show NeedInformation{..} = header <> body
     where
-      header = mconcat ["You need ", show nNeed, " stickers.\n\n"]
+      header = mconcat ["You need ", show nNeed, " sticker(s).\n\n"]
       body   = L.intercalate ", " (map show need)
 
 
@@ -262,7 +262,7 @@ data DuplicatesInformation = DuplicatesInformation
 instance Show DuplicatesInformation where
   show  DuplicatesInformation{..} = header <> body
     where
-      header = mconcat ["You have ", show nDuplicates, " duplicate stickers.\n\n"]
+      header = mconcat ["You have ", show nDuplicates, " duplicate sticker(s).\n\n"]
       body   = LE.dropSuffix ", " $ Map.foldrWithKey appendDuplicate "" duplicates
 
       appendDuplicate :: Sticker -> Int -> String -> String
